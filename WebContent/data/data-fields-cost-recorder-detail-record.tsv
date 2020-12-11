@@ -1,0 +1,19 @@
+字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+入账单编号	COSTRECORDERDETAIL_RECORD.invoiceNumber	COSTRECORDERDETAIL_RECORD	invoiceNumber	invoiceNumber	入账单编号	1	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	入账信息	2	60001		1970-01-01 00:00:00.000			0		1	
+项目	COSTRECORDERDETAIL_RECORD.f1	COSTRECORDERDETAIL_RECORD	f1	f1	项目	1	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	入账信息	2	60002		1970-01-01 00:00:00.000			0		0	
+出账类型	COSTRECORDERDETAIL_RECORD.f2	COSTRECORDERDETAIL_RECORD	f2	f2	出账类型	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	入账信息	2	60003		1970-01-01 00:00:00.000			0		0	
+项目经理	COSTRECORDERDETAIL_RECORD.f3	COSTRECORDERDETAIL_RECORD	f3	f3	项目经理	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	入账信息	2	60004		1970-01-01 00:00:00.000			0		0	
+支出合同付款单	COSTRECORDERDETAIL_RECORD.contractPaymentNumbe	COSTRECORDERDETAIL_RECORD	contractPaymentNumbe	contractPaymentNumbe	支出合同付款单	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	支付信息	2	60005		1970-01-01 00:00:00.000			0		1	
+资金支付申请	COSTRECORDERDETAIL_RECORD.f4	COSTRECORDERDETAIL_RECORD	f4	f4	资金支付申请	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	支付信息	2	60006		1970-01-01 00:00:00.000			0		0	
+核销金额	COSTRECORDERDETAIL_RECORD.f5	COSTRECORDERDETAIL_RECORD	f5	f5	核销金额	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	支付信息	2	60007		1970-01-01 00:00:00.000			0		0	
+已入账金额	COSTRECORDERDETAIL_RECORD.accountingAmount	COSTRECORDERDETAIL_RECORD	accountingAmount	accountingAmount	已入账金额	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	支付信息	2	60008		1970-01-01 00:00:00.000			0		0	
+未记账金额	COSTRECORDERDETAIL_RECORD.f6	COSTRECORDERDETAIL_RECORD	f6	f6	未记账金额	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	支付信息	2	60009		1970-01-01 00:00:00.000			0		0	
+本次记账金额	COSTRECORDERDETAIL_RECORD.f7	COSTRECORDERDETAIL_RECORD	f7	f7	本次记账金额	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	支付信息	2	60010		1970-01-01 00:00:00.000			0		0	
+经手人	COSTRECORDERDETAIL_RECORD.handler	COSTRECORDERDETAIL_RECORD	handler	handler	经手人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	支付信息	2	60011		1970-01-01 00:00:00.000			0		0	
+资金类型	COSTRECORDERDETAIL_RECORD.f8	COSTRECORDERDETAIL_RECORD	f8	f8	资金类型	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	支付信息	2	60012		1970-01-01 00:00:00.000			0		0	
+凭证号	COSTRECORDERDETAIL_RECORD.f9	COSTRECORDERDETAIL_RECORD	f9	f9	凭证号	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	支付信息	2	60013		1970-01-01 00:00:00.000			0		0	
+款项方式	COSTRECORDERDETAIL_RECORD.f10	COSTRECORDERDETAIL_RECORD	f10	f10	款项方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	支付信息	2	60014		1970-01-01 00:00:00.000			0		0	
+附件	COSTRECORDERDETAIL_RECORD.subsidiaryFile	COSTRECORDERDETAIL_RECORD	subsidiaryFile	subsidiaryFileText	附件	0	1	1	1	1	1	0	0				0	4		0		widget:filebox,sortable:1	0	10	支付信息	2	60015		1970-01-01 00:00:00.000			0		0	
+备注	COSTRECORDERDETAIL_RECORD.f11	COSTRECORDERDETAIL_RECORD	f11	f11	备注	0	1	1	1	1	1	0	0				0	4		0		widget:textbox,sortable:1,multiline:1,width:635	0	10	支付信息	2	60016		1970-01-01 00:00:00.000			0		0	
+入账人	COSTRECORDERDETAIL_RECORD.accountant	COSTRECORDERDETAIL_RECORD	accountant	accountant 	入账人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	支付信息	2	60017		1970-01-01 00:00:00.000			0		0	
+入账时间	COSTRECORDERDETAIL_RECORD.postingDate	COSTRECORDERDETAIL_RECORD	postingDate	postingDateText	入账时间	0	1	1	1	1	1	0	0				0	4		0		widget:datebox,sortable:1	0	4	支付信息	2	60018		1970-01-01 00:00:00.000			0		0	

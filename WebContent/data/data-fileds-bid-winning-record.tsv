@@ -1,0 +1,19 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+中标申请人	BINDWIN.f1	BINDWIN	f1	f1	中标申请人	0	1	1	1	1	1	1	0				0	4	50	1	管理员	widget:textbox,sortable:1	0	4	中标信息管理	2	10002		1970-01-01 00:00:00.000			0		0	
+申请日期	BINDWIN.f2	BINDWIN	f2	f2	申请日期	0	1	1	1	1	1	1	0				0	4	50	1	2019-8-8	widget:textbox,sortable:1	0	4	中标信息管理	2	10003		1970-01-01 00:00:00.000			0		0	
+中标日期	BINDWIN.f3	BINDWIN	f3	f3	中标日期	1	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1	0	4	中标信息管理	2	10004		1970-01-01 00:00:00.000			0		0	
+中标价格	BINDWIN.f4	BINDWIN	f4	f4	中标价格	1	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	中标信息管理	2	10005		1970-01-01 00:00:00.000			0		0	
+投标保证金	BINDWIN.f5	BINDWIN	f5	f5	投标保证金	0	1	1	1	1	1	1	0				0	3	0,999999,2	1	5000.00	widget:numberbox,sortable:1	0	4	中标信息管理	2	10006		1970-01-01 00:00:00.000			0		0	
+是否退还	BINDWIN.giveback	BINDWIN	giveback	giveback	是否退还	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:givebacks	0	4	中标信息管理	2	10007		1970-01-01 00:00:00.000			0		0	
+实施部门	BINDWIN.dept	BINDWIN	dept	dept	实施部门	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:depts	0	4	中标信息管理	2	10008		1970-01-01 00:00:00.000			0		0	
+项目经理	BINDWIN.projectmanager	BINDWIN	projectmanager	projectmanager	项目经理	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:projectmanagers	0	4	中标信息管理	2	10009		1970-01-01 00:00:00.000			0		0	
+是否已签约	BINDWIN.f6	BINDWIN	f6	f6	是否已签约	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:givebacks	0	4	中标信息管理	2	10010		1970-01-01 00:00:00.000			0		0	
+签约主体	BINDWIN.f7	BINDWIN	f7	f7	签约主体	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:signs	0	4	中标信息管理	2	10011		1970-01-01 00:00:00.000			0		0	
+预计签约时间	BINDWIN.f8	BINDWIN	f8	f8	预计签约时间	0	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1	0	4	中标信息管理	2	10012		1970-01-01 00:00:00.000			0		0	
+是否有甲方中标通知书	BINDWIN.f9	BINDWIN	f9	f9	是否有甲方中标通知书	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:givebacks	0	4	中标信息管理	2	10013		1970-01-01 00:00:00.000			0		0	
+告知人	BINDWIN.f10	BINDWIN	f10	f10	告知人	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:projectmanagers	0	4	中标信息管理	2	10014		1970-01-01 00:00:00.000			0		0	
+承包模式	BINDWIN.f11	BINDWIN	f11	f11	承包模式	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:contractingmodel	0	4	中标信息管理	2	10015		1970-01-01 00:00:00.000			0		0	
+上级项目	BINDWIN.f12	BINDWIN	f12	f12	上级项目	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,width:635,option:depts	0	12	中标信息管理	2	10016		1970-01-01 00:00:00.000			0		0	
+承包范围	BINDWIN.f13	BINDWIN	f13	f13	承包范围	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:635,multiline:1	0	12	中标信息管理	2	10017		1970-01-01 00:00:00.000			0		0	
+相关附件	BINDWIN.f14	BINDWIN	f14	f14	相关附件	0	1	1	1	1	1	0	0				0	4	50	0		widget:filebox,sortable:1,buttonText:浏览	0	4	中标信息管理	2	10018		1970-01-01 00:00:00.000			0		0	
+原因分析	BINDWIN.f15	BINDWIN	f15	f15	原因分析	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:635,multiline:1	0	12	中标信息管理	2	10019		1970-01-01 00:00:00.000			0		0	

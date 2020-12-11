@@ -1,0 +1,11 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+申请人	PREQUALIFICATION.f1	PREQUALIFICATION	f1	f1	申请人	1	1	1	1	1	1	1	0				0	4	50	1	管理员	widget:textbox,sortable:1,width:635	0	12	资格预审	2	10002		1970-01-01 00:00:00.000			0		0	
+申请日期	PREQUALIFICATION.f2	PREQUALIFICATION	f2	f2	申请日期	1	1	1	1	1	1	1	0				0	4	50	1	2019-8-8	widget:textbox,sortable:1,width:635	0	12	资格预审	2	10003		1970-01-01 00:00:00.000			0		0	
+是否需要商务支持	PREQUALIFICATION.f7	PREQUALIFICATION	f7	f7	是否需要商务支持	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,width:635,option:givebacks	0	12	资格预审	2	10004		1970-01-01 00:00:00.000			0		0	
+资审组长	PREQUALIFICATION.projectmanager	PREQUALIFICATION	projectmanager	projectmanager	资审组长	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,width:635,option:projectmanagers	0	12	资格预审	2	10005		1970-01-01 00:00:00.000			0		0	
+预审制作截止日期	PREQUALIFICATION.f3	PREQUALIFICATION	f3	f3	预审制作截止日期	1	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1,width:635	0	12	资格预审	2	10006		1970-01-01 00:00:00.000			0		0	
+预审日期	PREQUALIFICATION.f4	PREQUALIFICATION	f4	f4	预审日期	1	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1,width:635	0	12	资格预审	2	10007		1970-01-01 00:00:00.000			0		0	
+预审保证金(元)	PREQUALIFICATION.f5	PREQUALIFICATION	f5	f5	预审保证金(元)	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1,width:635	0	12	资格预审	2	10008		1970-01-01 00:00:00.000			0		0	
+报名日期	PREQUALIFICATION.f4	PREQUALIFICATION	f4	f4	报名日期	1	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1,width:635	0	12	资格预审	2	10009		1970-01-01 00:00:00.000			0		0	
+资格预审资料	PREQUALIFICATION.f14	PREQUALIFICATION	f14	f14	资格预审资料	0	1	1	1	1	1	0	0				0	4	50	0		widget:filebox,sortable:1,width:635,buttonText:浏览	0	12	资格预审	2	10010		1970-01-01 00:00:00.000			0		0	
+说明	PREQUALIFICATION.f15	PREQUALIFICATION	f15	f15	说明	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:635,multiline:1	0	12	资格预审	2	10011		1970-01-01 00:00:00.000			0		0	

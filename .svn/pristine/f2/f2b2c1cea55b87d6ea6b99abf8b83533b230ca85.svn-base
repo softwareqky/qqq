@@ -1,0 +1,22 @@
+字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+项目编号	PROJECT.projectNo	PROJECT	projectNo	projectNo	项目编号	1	1	1	1	1	1	1	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	110		2	10001		1970-01-01 00:00:00.000			1			
+项目名称	PROJECT.projectName	PROJECT	projectName	projectName	项目名称	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1,formatter:ProjectInitiation.viewRecordFormatter	0	320		2	10002		1970-01-01 00:00:00.000			1			
+项目属性	PROJECT.projectAttr	PROJECT	projectAttr	projectAttr	项目属性	1	1	1	1	1	1	0	0	2	1	0	0	1		0		widget:combobox,sortable:1,option:projectAttr	0	85		2	10003		1970-01-01 00:00:00.000			0			
+项目状态	PROJECT.projectStatus	PROJECT	projectStatus	projectStatus	项目状态	0	1	1	1	1	1	0	0	1	1	0	0	1		0		widget:combobox,sortable:1,option:projectStatus	0	85		2	10004		1970-01-01 00:00:00.000			0			
+项目类型	PROJECT.projectType	PROJECT	projectType	projectType	项目类型	0	1	1	1	1	1	0	0	2	1	0	0	1		0		widget:combobox,sortable:1,option:projectType	0	120		2	10005		1970-01-01 00:00:00.000			0			
+区域	PROJECT.region	PROJECT	region	region	区域	0	1	1	1	1	1	0	0	2	1	0	0	4		0		widget:combobox,sortable:1,option:region	0	100		2	10006		1970-01-01 00:00:00.000			0			
+发起人	PROJECT.sponsor	PROJECT	sponsor	sponsor	发起人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	100		2	10007		1970-01-01 00:00:00.000			0			
+项目经理	PROJECT.projectManager	PROJECT	projectManager	projectManager	项目经理	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	10008		1970-01-01 00:00:00.000			0			
+实施项目部	PROJECT.implementDept	PROJECT	implementDept	implementDept	实施项目部	0	1	1	1	1	1	0	0	2	1	2	0	4	50	0		widget:textbox,sortable:1	0	110		2	10009		1970-01-01 00:00:00.000			0			
+流程状态	PROJECT.processStatus	PROJECT	processStatus	processStatus	流程状态	0	1	1	1	1	1	0	0				0	1		0		widget:combobox,sortable:1,option:processStatus	0	85		2	10010		1970-01-01 00:00:00.000			0			
+项目部	PROJECT.projectDept	PROJECT	projectDept	projectDept	项目部	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	180		2	10011		1970-01-01 00:00:00.000			0			
+建设单位	PROJECT.constructUnit	PROJECT	constructUnit	constructUnit	建设单位	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	240		2	10012		1970-01-01 00:00:00.000			0			
+工程造价	PROJECT.projectCost	PROJECT	projectCost	projectCost	工程造价	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	100		2	10013		1970-01-01 00:00:00.000			0			
+安全生产费	PROJECT.safeFee	PROJECT	safeFee	safeFee	安全生产费	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	100		2	10014		1970-01-01 00:00:00.000			0			
+项目来源	PROJECT.projectSource	PROJECT	projectSource	projectSource	项目来源	0	1	1	1	1	1	0	0	2	1	0	0	1		0		widget:combobox,sortable:1,option:projectSource	0	100		2	10015		1970-01-01 00:00:00.000			0			
+联营人	PROJECT.associated	PROJECT	associated	associated	联营人	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	10016		1970-01-01 00:00:00.000			0			
+推荐人	PROJECT.referee	PROJECT	referee	referee	推荐人	0	1	1	1	1	1	0	0	2	1	2	0	4	50	0		widget:textbox,sortable:1	0	100		2	10017		1970-01-01 00:00:00.000			0			
+分公司	PROJECT.subCompany	PROJECT	subCompany	subCompany	分公司	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	10018		1970-01-01 00:00:00.000			0			
+立项申请日期	PROJECT.initApplyDate	PROJECT	initApplyDate	initApplyDateText	立项申请日期	0	1	1	1	1	1	0	0	2	2		0	5		0		widget:datebox,sortable:1	0	100		2	10019		1970-01-01 00:00:00.000			0			
+开始日期	PROJECT.fromDate	PROJECT	fromDate	fromDateText	开始日期	0	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1	0	100		2	10020		1970-01-01 00:00:00.000			0			
+结束日期	PROJECT.toDate	PROJECT	toDate	toDateText	结束日期	0	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1	0	100		2	10021		1970-01-01 00:00:00.000			0			

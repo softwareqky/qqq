@@ -1,0 +1,23 @@
+# Due to the implementation of org.springframework.web.util.Log4jWebConfigurer, this log4j-web.properties can only be placed in the src folder of Web project, not other project.
+# Set root logger level
+log4j.rootLogger=WARN, A1, A2
+
+# Print only messages of level INFO or above in the package garage.origin
+log4j.logger.garage.origin=INFO
+log4j.logger.project.edge=INFO
+# log4j.logger.org.springframework=DEBUG
+# log4j.logger.org.springframework.web.socket=TRACE
+
+# A1:Console Appender
+log4j.appender.A1=org.apache.log4j.ConsoleAppender
+log4j.appender.A1.layout=org.apache.log4j.PatternLayout
+log4j.appender.A1.layout.ConversionPattern=%d{HH:mm:ss,SSS - yyyy/MM/dd} %-5p %c - %m%n
+
+# A2:Daily File Appender
+log4j.appender.A2=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.A2.File=${ProjectEdge.webApp.root}/WEB-INF/logs/webapp.log
+log4j.appender.A2.Append=true
+# log4j.appender.A2.Threshold can be removed. If so, log level will only be controlled by log4j.logger
+log4j.appender.A2.Threshold=INFO
+log4j.appender.A2.layout=org.apache.log4j.PatternLayout
+log4j.appender.A2.layout.ConversionPattern=%d{HH:mm:ss,SSS - yyyy/MM/dd} %-5p %c - %m%n

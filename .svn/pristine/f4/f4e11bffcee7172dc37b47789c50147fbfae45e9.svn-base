@@ -1,0 +1,29 @@
+# JDBC connection, moved to mtstar.properties for easy customization
+jdbc.driverClassName=com.mysql.cj.jdbc.Driver
+
+# the following 3 properties can be customizable if moved to users.properties
+jdbc.username=root
+jdbc.password=root
+
+# c3p0 connection pool
+# c3p0.maximum.connection.count must be larger than the max thread pool size defined by Spring
+c3p0.maximum.connection.count=30
+c3p0.minimum.connection.count=5
+c3p0.initialPoolSize=10
+c3p0.maxIdleTime=20
+c3p0.acquireIncrement=10
+c3p0.maxStatements=0
+c3p0.idleConnectionTestPeriod=60
+c3p0.acquireRetryAttempts=10
+c3p0.breakAfterAcquireFailure=false
+c3p0.testConnectionOnCheckout=false
+
+# Hibernate configuration
+hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+hibernate.show_sql=false
+hibernate.format_sql=false
+hibernate.jdbc.fetch_size=50
+hibernate.jdbc.batch_size=100
+hibernate.connection.characterEncoding=UTF-8
+hibernate.current_session_context_class=org.springframework.orm.hibernate4.SpringSessionContext
+hibernate.cache.use_second_level_cache=false

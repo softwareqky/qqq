@@ -1,0 +1,134 @@
+<!-- <?xml version="1.0" encoding="UTF-8" ?> -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:websocket="http://www.springframework.org/schema/websocket"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:oxm="http://www.springframework.org/schema/oxm"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/websocket
+       http://www.springframework.org/schema/websocket/spring-websocket.xsd
+       http://www.springframework.org/schema/task
+       http://www.springframework.org/schema/task/spring-task.xsd
+       http://www.springframework.org/schema/oxm
+       http://www.springframework.org/schema/oxm/spring-oxm.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<mvc:annotation-driven />
+
+	<mvc:resources location="/preview-cache/" mapping="/preview-cache/**" />
+
+	<!-- 拦截器 -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**" />
+			<bean class="garage.origin.web.interceptor.CorsInterceptor" /><!--Cors拦截 -->
+		</mvc:interceptor>
+		<mvc:interceptor>
+			<mvc:mapping path="/**" />
+			<mvc:exclude-mapping path="/index*" />
+			<mvc:exclude-mapping path="/sysinfo*" />
+			<mvc:exclude-mapping path="/login*" />
+			<mvc:exclude-mapping path="/session-expire*" />
+			<mvc:exclude-mapping path="/stomp/**" /><!-- 为了配合IE8，禁用了session-cookie，因此需要把websocket的endpoint作为例外 -->
+			<mvc:exclude-mapping path="/demo/**" />
+			<mvc:exclude-mapping path="/test*" />
+			<mvc:exclude-mapping path="/auth/login*" />
+			<mvc:exclude-mapping path="/settings*" />
+			<mvc:exclude-mapping path="/oaAuditRes/**" />
+			<mvc:exclude-mapping path="/oa/data/sync*" />
+			<mvc:exclude-mapping path="/schedule/plan-task/main2.htm*" />
+			<mvc:exclude-mapping path="/in-progress*" />
+			<bean class="garage.origin.web.interceptor.SecurityInterceptor" /><!-- Session验证拦截 -->
+		</mvc:interceptor>
+		<!-- 无缓存拦截，改用tomcat web.xml的Filter配置 -->
+		<!-- <mvc:interceptor> <mvc:mapping path="/**" /> <bean class="garage.origin.web.interceptor.NoCacheInterceptor" 
+			/> </mvc:interceptor> -->
+	</mvc:interceptors>
+	
+	<mvc:cors>
+	   <mvc:mapping path="/**" />
+	</mvc:cors>
+
+	<bean id="systemLogAspect" class="project.edge.common.SystemLogAspect"></bean>
+	<aop:config>
+        <aop:aspect ref="systemLogAspect">
+            <aop:pointcut id="point_cut" expression="execution(* project.edge.web.controller.*.*.create(..)) ||
+            					execution(* project.edge.web.controller.*.*.update(..)) ||
+            					execution(* project.edge.web.controller.*.*.delete(..)) ||
+            					execution(* project.edge.web.controller.*.*.auditSubmit(..))" />  
+            <aop:after-throwing method="errorthrow" pointcut-ref="point_cut"/>
+            <aop:around method="accessSysLog" pointcut-ref="point_cut"/>
+        </aop:aspect>
+    </aop:config>
+    
+	<!-- i18n : MessageSource & LocaleResolver -->
+	<!-- MessageSource is defined in appContext-service.xml -->
+
+	<bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+		<property name="defaultLocale" value="zh_CN" />
+	</bean>
+
+	<!-- theme : ThemeSource & ThemeResolver -->
+	<bean id="themeSource"
+		class="org.springframework.ui.context.support.ResourceBundleThemeSource">
+		<property name="basenamePrefix" value="project.edge.theme." />
+	</bean>
+
+	<bean id="themeResolver" class="org.springframework.web.servlet.theme.SessionThemeResolver">
+		<property name="defaultThemeName" value="origin" />
+	</bean>
+
+	<!-- file upload : MultipartResolver -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- maximum allowed size (in bytes) before uploads are refused. -1 indicates no limit (the default) -->
+		<property name="maxUploadSize" value="120000000" />
+	</bean>
+
+	<!-- view render : ViewResolver -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<!-- Below are JMS and WebSocket related. -->
+
+	<!-- Spring Message Listener Containers -->
+
+	<!-- 对应DispatherServlet的servlet-mapping的url-pattern是/websocket/*，这里的path是/stomp，最终在前台js中使用的url是这两者的拼接，即/websocket/stomp -->
+	<websocket:message-broker application-destination-prefix="/app">
+		<websocket:stomp-endpoint path="/stomp">
+			<websocket:sockjs session-cookie-needed="false"
+				client-library-url="/project-edge/js/util/sockjs-1.3.0.js" disconnect-delay="25000" /><!-- 禁用cookie，使IE8使用xdr-streaming作为SockJs的transport -->
+		</websocket:stomp-endpoint>
+		<websocket:simple-broker prefix="/queue, /topic" />
+		<!-- /app,/queue,/topic都是作为STOMP协议中destination的前缀。/app会路由到@MessageMapping方法；/queue和/topic会路由到broker，随后广播到Clients -->
+	</websocket:message-broker>
+
+	<bean id="hrmSyncJob" class="project.edge.job.HrmSyncJob" />
+
+	<!-- TaskScheduler -->
+	<task:scheduled-tasks scheduler="jobScheduler">
+		<task:scheduled ref="hrmSyncJob" method="execute" fixed-delay="3600000"
+			initial-delay="30000" />
+	</task:scheduled-tasks>
+
+	<!-- Spring线程池，用来支持@Async异步方法 -->
+	<!-- Spring调度器，用来支持@Scheduled异步方法 -->
+	<task:annotation-driven executor="poolExecutor" scheduler="jobScheduler" />
+	<task:executor id="poolExecutor" pool-size="${thread.pool}"
+		queue-capacity="${thread.queue}" rejection-policy="DISCARD_OLDEST" keep-alive="120" />
+	<task:scheduler id="jobScheduler" pool-size="10" />
+
+</beans>

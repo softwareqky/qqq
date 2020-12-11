@@ -1,0 +1,1128 @@
+/* Customize the 3rd party css */
+
+/**************** AdminLTE Begin ****************/
+
+/* Copied from AdminLTE.css */
+/* .menu is conflicted with easyui. Change class name from .menu to .menu-lte --Begin-- */
+.navbar-nav>.notifications-menu>.dropdown-menu>li .menu-lte, .navbar-nav>.messages-menu>.dropdown-menu>li .menu-lte,
+	.navbar-nav>.tasks-menu>.dropdown-menu>li .menu-lte {
+	max-height: 200px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow-x: hidden;
+}
+
+.navbar-nav>.notifications-menu>.dropdown-menu>li .menu-lte>li>a,
+	.navbar-nav>.messages-menu>.dropdown-menu>li .menu-lte>li>a,
+	.navbar-nav>.tasks-menu>.dropdown-menu>li .menu-lte>li>a {
+	display: block;
+	white-space: nowrap;
+	/* Prevent text from breaking */
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.navbar-nav>.notifications-menu>.dropdown-menu>li .menu-lte>li>a:hover,
+	.navbar-nav>.messages-menu>.dropdown-menu>li .menu-lte>li>a:hover,
+	.navbar-nav>.tasks-menu>.dropdown-menu>li .menu-lte>li>a:hover {
+	background: #f4f4f4;
+	text-decoration: none;
+}
+
+.navbar-nav>.notifications-menu>.dropdown-menu>li .menu-lte>li>a {
+	color: #444444;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 10px;
+}
+
+.navbar-nav>.notifications-menu>.dropdown-menu>li .menu-lte>li>a>.glyphicon,
+	.navbar-nav>.notifications-menu>.dropdown-menu>li .menu-lte>li>a>.fa,
+	.navbar-nav>.notifications-menu>.dropdown-menu>li .menu-lte>li>a>.ion {
+	width: 20px;
+}
+
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu-lte>li>a {
+	margin: 0;
+	padding: 10px 10px;
+}
+
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu-lte>li>a>div>img {
+	margin: auto 10px auto auto;
+	width: 40px;
+	height: 40px;
+}
+
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu-lte>li>a>h4 {
+	padding: 0;
+	margin: 0 0 0 45px;
+	color: #444444;
+	font-size: 15px;
+	position: relative;
+}
+
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu-lte>li>a>h4>small {
+	color: #999999;
+	font-size: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu-lte>li>a>p {
+	margin: 0 0 0 45px;
+	font-size: 12px;
+	color: #888888;
+}
+
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu-lte>li>a:before,
+	.navbar-nav>.messages-menu>.dropdown-menu>li .menu-lte>li>a:after {
+	content: " ";
+	display: table;
+}
+
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu-lte>li>a:after {
+	clear: both;
+}
+
+.navbar-nav>.tasks-menu>.dropdown-menu>li .menu-lte>li>a {
+	padding: 10px;
+}
+
+.navbar-nav>.tasks-menu>.dropdown-menu>li .menu-lte>li>a>h3 {
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 10px 0;
+	color: #666666;
+}
+
+.navbar-nav>.tasks-menu>.dropdown-menu>li .menu-lte>li>a>.progress {
+	padding: 0;
+	margin: 0;
+}
+/* .menu-lte related --END-- */
+
+/* 改变边框颜色，以便在白色背景上较明显的显示边框 */
+.info-box.info-box-border {
+	border: 1px solid #eee;
+	border-radius: 5px;
+}
+
+/* 重写form-control的样式，模仿EasyUI --Begin-- */
+.form-control.ez-like {
+	border-radius: 4px 4px 4px 4px;
+	width: 100%;
+	height: 32px;
+	padding: 4px 10px;
+}
+
+.form-control.ez-like[readonly] {
+	background-color: #fafafa;
+}
+
+.input-group>.form-control.ez-like[readonly] {
+	/* .input-group下的.form-control.ez-like默认就是readonly */
+	background-color: #fff;
+}
+
+.input-group.readonly>.form-control.ez-like[readonly] {
+	/* 只有当.input-group也是.readonly，此时其下的.form-control.ez-like才设置背景色 */
+	background-color: #fafafa;
+}
+
+.form-control.ez-like[disabled] {
+	background-color: #eee;
+}
+
+select.form-control.ez-like {
+	padding: 4px 7px;
+}
+
+.form-control.ez-like:focus {
+	border-color: #c4c4c4;
+	-moz-box-shadow: 0 0 3px 0 #ddd;
+	-webkit-box-shadow: 0 0 3px 0 #ddd;
+	box-shadow: 0 0 3px 0 #ddd;
+}
+/* 重写form-control的样式，模仿EasyUI --End-- */
+
+/*增加左侧菜单项第二级子菜单的缩进*/
+.sidebar-menu>.treeview>ul.treeview-menu {
+	padding-left: 10px;
+}
+
+/**************** AdminLTE --End-- ****************/
+
+/**************** EasyUI --Begin-- ****************/
+
+/* Everything is material theme but dialog is gray theme */
+/* Below are dialog styles copied from gray theme. --Begin-- */
+.window, .window-shadow {
+	position: absolute;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.window-shadow {
+	background: #ccc;
+	-moz-box-shadow: 2px 2px 3px #cccccc;
+	-webkit-box-shadow: 2px 2px 3px #cccccc;
+	box-shadow: 2px 2px 3px #cccccc;
+	filter: progid:DXImageTransform.Microsoft.Blur(pixelRadius=2, MakeShadow=false,
+		ShadowOpacity=0.2);
+}
+
+.window, .window .window-body {
+	border-color: #D3D3D3;
+}
+
+.window {
+	background-color: #f3f3f3;
+	background: -webkit-linear-gradient(top, #F8F8F8 0, #eeeeee 20%);
+	background: -moz-linear-gradient(top, #F8F8F8 0, #eeeeee 20%);
+	background: -o-linear-gradient(top, #F8F8F8 0, #eeeeee 20%);
+	background: linear-gradient(to bottom, #F8F8F8 0, #eeeeee 20%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F8F8F8,
+		endColorstr=#eeeeee, GradientType=0);
+}
+
+.window-proxy {
+	border: 1px dashed #D3D3D3;
+}
+
+.window-proxy-mask, .window-mask {
+	background: #ccc;
+}
+
+.window .panel-footer {
+	border: 1px solid #D3D3D3;
+	position: relative;
+	top: -1px;
+}
+
+.dialog-tool-separator {
+	float: left;
+	height: 24px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #fff;
+	margin: 2px 1px;
+}
+
+.dialog-toolbar {
+	border-color: #D3D3D3 #D3D3D3 #ddd #D3D3D3;
+}
+
+.dialog-button {
+	border-color: #ddd #D3D3D3 #D3D3D3 #D3D3D3;
+}
+/* dialog from gray theme --END-- */
+
+/* Change the background-color and border of .tabs-header to match the content of AdminLTE --Begin-- */
+.tabs-header {
+	border-width: 0px;
+}
+
+.tabs-header, .tabs-tool {
+	background-color: #ecf0f5;
+}
+/* .tabs-header --END-- */
+
+/*增加panel头部的icon与title的距离*/
+.panel-with-icon {
+	padding-left: 23px;
+}
+
+/*增加window头部的icon与title的距离*/
+.window .window-header .panel-with-icon {
+	padding-left: 23px;
+}
+
+/* 弹出window时的淡色的背景遮挡 */
+.window-proxy-mask, .window-mask {
+	background: #aaa;
+}
+
+/* 按钮的文本不换行 */
+.l-btn-text {
+	white-space: nowrap;
+	word-wrap: normal;
+}
+
+/* 增加输入框的padding */
+.textbox .textbox-text {
+	padding: 4px 10px;
+}
+
+/*增加只读的textbox的背景区分*/
+.textbox-readonly .textbox-text {
+	background-color: #EBEBE4;
+}
+
+/* 增加combobox内item的最小高度 */
+.combobox-item {
+	min-height: 15px;
+}
+
+/*layout外层panel背景设为透明*/
+.layout-panel {
+	background: transparent;
+}
+
+/* datagrid中当文字超出cell宽度时，显示'...' */
+.datagrid-cell {
+	text-overflow: ellipsis;
+}
+
+/* 重写easyui的messager样式，影响气泡弹出框 */
+.messager-body.panel-body-noheader {
+	font-weight: bold;
+	color: #575765;
+	height: 16px;
+	line-height: 16px;
+	border: 0px;
+	padding: 0px;
+	text-align: center;
+	background: transparent;
+}
+
+/*bug - IE下会导致tooltip的箭头无法正常显示*/
+.tooltip {
+	filter: none;
+}
+
+/*针对material theme，调深datagrid的标题栏的文字 */
+.datagrid-header .datagrid-cell, .datagrid-header .datagrid-cell-group {
+	color: #333;
+}
+
+/* 增加dialog内容的padding */
+.easyui-dialog.panel-body.window-body {
+	padding: 5px 10px 15px 10px;
+}
+
+/* 设置弹出画面底部按钮栏，增加右侧padding */
+.dialog-button {
+	padding-right: 20px;
+}
+
+/* 设置弹出画面底部按钮栏中，按钮的最小宽度 */
+.dialog-button a.l-btn {
+	min-width: 65px;
+}
+
+/* tabs的工具栏，去掉边框 */
+.tabs-tool-no-border {
+	border-top-width: 0px !important;
+	border-left-width: 0px !important;
+	border-right-width: 0px !important;
+}
+
+/*layout的.panel会被bootstrap影响，重写受影响的属性*/
+.panel.layout-panel {
+	webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/**************** EasyUI --End-- ****************/
+
+/**************** Customized --Begin-- ****************/
+
+/* 加载easyui画面时的遮盖，防止画面跳动 */
+.jeasyui-loading {
+	position: absolute;
+	z-index: 99999;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: #f4f4f4 url(../img/loading.gif) no-repeat 15px 15px;
+}
+
+/* AJAX时，弹出'loading...'等待提示 */
+.loading-prompt {
+	background: #fff url(../img/loading.gif) no-repeat 8px 11px !important;
+	text-align: center;
+}
+
+/* 文本不换行，超出显示省略号 */
+.text-nowrap-ellipsis {
+	white-space: nowrap;
+	word-wrap: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* 检索栏相关样式 --Begin-- */
+.filter-wrapper {
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 6px 10px;
+	overflow: visible;
+}
+
+.filter-wrapper .filter-form-control-row {
+	height: 32px;
+}
+
+.filter-wrapper .filter-form-control-row .filter-form-group {
+	margin-right: 10px;
+	float: left !important;
+}
+
+.filter-control-label {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.filter-tag-row { /** 占位用row */
+	margin-top: 8px;
+	height: 20px;
+}
+
+.filter-tag-row .filter-tag-box {
+	/** 配合.filter-tag-box-hover改变z-index从而浮动的容器 */
+	float: left;
+	position: relative;
+	height: 20px;
+	width: 100%;
+}
+
+.filter-tag-row .filter-tag-box-hover {
+	z-index: 1;
+}
+
+.filter-tag-row .filter-tag-inner-box {
+	/** 配合.filter-tag-box-hover改变height的容器 */
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-right: 60px;
+	height: 20px; /** hover时变为auto */
+	width: 95%;
+	overflow: hidden; /** 必须！配合height */
+}
+
+.filter-tag-row .filter-tag-box-hover .filter-tag-inner-box {
+	/** 边框&阴影&背景色 */
+	top: -1px;
+	left: -1px;
+	height: auto; /** hover时自动高度 */
+	border: solid 1px #ccc;
+	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+	box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+	background: #F7FAFD;
+}
+
+.filter-tag-row .filter-tags { /** filter-tag的wrapper */
+	width: 100%;
+	float: left;
+}
+
+.filter-tag-row .filter-tag {
+	float: left;
+	display: inline;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+	background: #A0C4E4;
+	color: #ffffff;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
+.filter-tag-row .filter-tag-box-hover .filter-tag, .filter-tag-row .filter-tag-box-hover .filter-tag-pin
+	{
+	margin-top: 5px;
+}
+
+.filter-tag-row .filter-tag:hover {
+	background: #7EB4E4;
+}
+
+.filter-tag-row .filter-tag .filter-tag-text {
+	_display: inline;
+	float: left;
+	margin-left: 4px
+}
+
+.filter-tag-row .filter-tag .filter-tag-close {
+	float: left;
+	background: url("../img/icon.png") -59px -198px;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	margin: 4px 5px 5px 10px;
+}
+
+.filter-tag-row .filter-tag-pin-wrapper {
+	position: absolute;
+	right: 0;
+	top: 0px;
+	padding-right: 10px;
+}
+
+.filter-tag-row .filter-tag-pin {
+	text-decoration: none;
+	display: inline-block;
+	background: transparent;
+	padding: 1px;
+	border-width: 0;
+	width: 18px;
+	height: 18px;
+}
+
+.filter-tag-row .filter-tag-pin:hover, .filter-tag-row .filter-tag-pin-wrapper .filter-tag-pin-selected
+	{
+	background: #eaf2ff;
+	padding: 0;
+	border: 1px solid #b7d2ff;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.filter-tag-row .filter-tag-pin .filter-tag-pin-icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url('../img/pin.png') no-repeat center center;
+}
+
+/* 检索栏相关样式 --END-- */
+
+/* 减少AdminLTE的.main-footer的上下padding */
+.main-footer-thin {
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+
+/* 菜单组的选中效果，左侧显示蓝条，ref: .skin-blue .sidebar-menu > li.active > a from skin-blue.css */
+.sidebar-menu>li.active-menu-group>a {
+	border-left-color: #3c8dbc;
+}
+
+/* 与bootstrap的.alert-warning一致，防止bootstrap的样式被AdminLTE重写 */
+.alert-warning-origin {
+	color: #8a6d3b !important;
+	background-color: #fcf8e3 !important;
+	border-color: #faebcc;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* 与bootstrap的.alert-info一致，防止bootstrap的样式被AdminLTE重写 */
+.alert-info-origin {
+	color: #31708f !important;
+	background-color: #d9edf7 !important;
+	border-color: #bce8f1;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* 与bootstrap的.alert-success一致，防止bootstrap的样式被AdminLTE重写 */
+.alert-success-origin {
+	color: #3c763d !important;
+	background-color: #dff0d8 !important;
+	border-color: #d6e9c6;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* 与bootstrap的.alert-danger一致，防止bootstrap的样式被AdminLTE重写 */
+.alert-danger-origin {
+	color: #a94442 !important;
+	background-color: #f2dede !important;
+	border-color: #ebccd1;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* 与bootstrap的.panel及.panel-default一致，防止bootstrap的样式被easyui重写 --Begin-- */
+.panel-default-origin {
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	border-color: #ddd;
+}
+
+.panel-default-origin .panel-body {
+	padding: 15px;
+	border-width: 0px;
+}
+/* 与bootstrap的.panel及.panel-default一致，防止bootstrap的样式被easyui重写 --END-- */
+
+/* 左树的最小宽度 */
+.min-width-200 {
+	min-width: 200px;
+}
+
+/* 标签页内的内容页面的最小宽度(检索栏，容纳3个控件的最小宽度) */
+.min-width-880 {
+	min-width: 880px;
+}
+
+.min-width-980 {
+	min-width: 980px;
+}
+
+/* datagrid的最小高度-中尺寸 */
+.min-height-m {
+	min-height: 410px;
+}
+
+/* datagrid的最小高度-小尺寸 */
+.min-height-s {
+	min-height: 210px;
+}
+
+/* 设置easyui的tabs panel的position，用来配合.navbar-absolute，将导航条固定在tab内容的顶部 */
+#MainContentTab>.tabs-panels>.panel.panel-htop {
+	position: relative;
+}
+
+/* bootstarp的.container和.container-fluid的修饰类，用来去掉padding */
+.container-no-padding {
+	padding: 0;
+}
+
+/* 覆盖bootstrap的.navbar-fixed-top，将position改为absolute，作为.navbar-fixed-top的修饰类，要配合.navbar-fixed-top一起使用 */
+.navbar-absolute {
+	position: absolute;
+	background-color: white;
+}
+
+/* 覆盖bootstrap的.navbar-brand，用来将新建/修改画面的顶部"标题-按钮栏"中的标题padding去掉 */
+#MainContentTab .navbar-absolute .container-fix-width-m .navbar-brand {
+	padding-left: 0;
+}
+
+/* bootstarp导航条，右侧的按钮组样式 --Begin-- */
+.navbar-right-button-group {
+	margin-right: 0 !important;
+}
+
+.navbar-right-button-group button {
+	margin-right: 10px;
+}
+/* bootstarp导航条，右侧的按钮组样式 --END-- */
+
+/* 参考bootstrap的.container，设置固定宽度 */
+.min-width-880 .container-fix-width-m {
+	width: 860px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* wrapper of easyui tabs #MainContentTab, ref: .content from AdminLTE.css */
+.main-content-tab-wrapper {
+	/* .main-header的height:50px，.main-footer-thin的height:35px，合计85px */
+	/* 将此wrapper的高度设定为剩余的px，从而限制内部的easyui-tabs的最大高度 */
+	/* height: calc(100vh - 85px); */
+	height: calc(100vh - 65px); /* 去掉了.main-footer-thin的内容 */
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px
+}
+
+/* 结合bootstrap的easyui-datagrid包裹样式 */
+.datagrid-wrapper {
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 6px 10px;
+}
+
+/* bootstrap的单行单列样式，即.row中唯一的.col中唯一的cell，调整左右的边距 */
+.row-single-col-cell {
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 6px 10px;
+}
+
+/* 配合bootstrap的.row一起使用，增加行间距 --Begin-- */
+.row-gapped-top-s {
+	padding-top: 5px;
+}
+
+.row-gapped-top-m {
+	padding-top: 10px;
+}
+
+.row-gapped-both-s {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+/* 配合bootstrap的.row一起使用，增加行间距 --END-- */
+
+/* 配合bootstrap的.col-*-*，减少列间距 */
+.col-gapped-none {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-gapped-s {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.col-gapped-xs {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.col-gapped-left-m {
+	padding-left: 10px;
+	padding-right: 0px;
+}
+
+.col-gapped-left-l {
+	padding-left: 20px;
+	padding-right: 0px;
+}
+
+.col-gapped-right-xs {
+	padding-left: 0px;
+	padding-right: 2px;
+}
+
+/* 列中的单元格，设定高度与垂直居中 */
+.col-cell-height-m {
+	min-height: 32px;
+	line-height: 32px;
+}
+
+.col-cell-checkbox {
+	vertical-align: middle;
+	margin: 0px !important;
+}
+
+/* 垂直分割线 */
+hr.vbar {
+	height: 75%;
+	margin-top: 10px;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.03),
+		rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0));
+	width: 1px;
+	border: 0px;
+}
+
+/* easyui的dialog弹出画面底部的"复制"checkbox --Begin-- */
+.dlg-checkbox {
+	float: left;
+	margin-left: 5px;
+}
+
+.dlg-checkbox span {
+	margin-left: 5px;
+	display: inline-block;
+	line-height: 28px;
+}
+
+.dlg-checkbox input {
+	margin-top: 8px;
+}
+/* 弹出画面底部的复制checkbox --END-- */
+
+/* 定制eaysui的tree的icon样式，使用font-awesome */
+.tree-icon-fa {
+	background-image: none;
+	font-size: 16px;
+	/* color: #357CA5; */
+	color: #779;
+	margin-right: 3px;
+}
+
+/* 定制eaysui的dialog的icon样式，使用font-awesome */
+.dialog-icon-fa {
+	background-image: none;
+	font-size: 16px;
+	/* color: #357CA5; */
+	color: #779;
+	margin-right: 3px;
+}
+
+/* 文件显示 --Begin-- */
+.file-box {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 35px;
+	font-size: 12px;
+	color: #666 !important;
+}
+
+.file-box i {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 26px;
+	top: 6px;
+	left: 6px;
+	cursor: pointer;
+}
+
+.file-box .file-name, .file-box .file-size {
+	white-space: nowrap;
+	word-wrap: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 12px;
+	padding-top: 2px;
+}
+
+.file-box .file-name {
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.file-box .file-size {
+	color: #999 !important;
+}
+/* 文件显示 --END-- */
+
+/* 查看弹出画面的值字段样式 */
+.view-value-box {
+	background-color: #f8f8f8;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	margin-right: 20px;
+}
+
+/* 左侧的项目一览样式(Deprecated) --Begin-- */
+.side-project-row {
+	position: relative;
+	padding-right: 52px;
+}
+
+.side-project-row span {
+	position: absolute;
+	top: 2px;
+	right: 0px;
+	width: 52px;
+	white-space: nowrap;
+	word-wrap: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.side-project-title, .side-project-content {
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	white-space: nowrap;
+	word-wrap: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.side-project-title {
+	color: #999;
+}
+
+.side-project-content {
+	
+}
+
+.datagrid-row-selected .side-project-title {
+	color: white;
+}
+
+.datagrid-row-selected .side-project-content {
+	color: white;
+	font-weight: 700;
+}
+/* 左侧的项目一览样式(Deprecated) --END-- */
+
+/* Grid标题样式 --Begin-- */
+.grid-title {
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 6px 10px 3px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #444;
+}
+
+.grid-title i {
+	margin-right: 5px;
+}
+
+/* Grid标题样式 --END-- */
+
+/* 档案管理样式 --Begin-- */
+
+/* 调小datagrid内的所有字体 */
+.archive-content .panel-body, .archive-content .datagrid-header .datagrid-cell span,
+	.archive-content .datagrid-cell {
+	font-size: 12px;
+}
+
+/* 面包屑参考AdminLTE中.breadcrumb的样式 */
+.archive-content .breadcrumb {
+	float: left;
+	background: transparent;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 5px 5px 5px 15px;
+	border-radius: 2px;
+}
+
+.archive-content .breadcrumb>li>a {
+	display: inline-block;
+}
+
+.archive-content .breadcrumb>li>a>.fa, .archive-content>.breadcrumb>li>a>.glyphicon,
+	.content-header>.breadcrumb>li>a>.ion {
+	margin-right: 5px;
+}
+
+.archive-content .breadcrumb>li+li:before {
+	padding: 0px 2px;
+	content: '>\00a0';
+}
+
+/* datagrid参考百度云的样式 */
+.archive-content .gridstatus {
+	float: right;
+	padding: 5px 15px 5px 5px;
+	color: #666666;
+}
+
+.archive-content .datagrid-toolbar {
+	border: none;
+	background: transparent;
+}
+
+.archive-content .panel-body {
+	border: none;
+}
+
+.archive-content .panel {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.archive-content .datagrid-header {
+	background: transparent;
+}
+
+.archive-content .datagrid-header td, .archive-content .datagrid-body td
+	{
+	border-right: 1px dotted transparent;
+}
+
+.archive-content .datagrid-header-check, .archive-content .datagrid-cell-check
+	{
+	padding-left: 10px;
+	width: 37px;
+}
+
+.archive-content .datagrid-row-selected, .archive-content .datagrid-row-over,
+	.archive-content td.datagrid-header-over {
+	background: #F4FBFF;
+	color: #424e67;
+}
+
+.archive-content .archive-icon {
+	float: left;
+	padding: 3px 0px;
+	height: 36px;
+}
+
+.archive-content .archive-icon .fa {
+	font-size: 30px;
+	color: #31708f;
+}
+
+.archive-content .archive-name {
+	float: left;
+	/* fallback for browsers which still doesn't support for `calc()` */
+	width: 70%;
+	width: calc(100% - 100px);
+	padding: 3px 5px;
+	height: 36px;
+	white-space: nowrap;
+	word-wrap: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.archive-content .archive-name a, .archive-content .archive-name span {
+	height: 34px;
+	line-height: 34px;
+}
+
+.archive-content .archive-name-tool {
+	float: right;
+	padding: 3px 5px 3px 0px;
+	height: 36px;
+	display: none;
+}
+
+.archive-content .datagrid-row-over .archive-name-tool {
+	display: block;
+}
+
+.archive-content .archive-name-tool .fa {
+	font-size: 16px;
+	color: #0098EA;
+	margin-right: 5px;
+	height: 32px;
+	line-height: 32px;
+	cursor: pointer;
+}
+
+/* 档案管理样式 --END-- */
+
+/* 知识库管理样式 --Begin-- */
+
+/* 调小datagrid内的所有字体 */
+.knowledge-base-content .panel-body, .knowledge-base-content .datagrid-header .datagrid-cell span,
+	.knowledge-base-content .datagrid-cell {
+	font-size: 12px;
+}
+
+/* 面包屑参考AdminLTE中.breadcrumb的样式 */
+.knowledge-base-content .breadcrumb {
+	float: left;
+	background: transparent;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 5px 5px 5px 15px;
+	border-radius: 2px;
+}
+
+.knowledge-base-content .breadcrumb>li>a {
+	display: inline-block;
+}
+
+.knowledge-base-content .breadcrumb>li>a>.fa, .knowledge-base-content>.breadcrumb>li>a>.glyphicon,
+	.content-header>.breadcrumb>li>a>.ion {
+	margin-right: 5px;
+}
+
+.knowledge-base-content .breadcrumb>li+li:before {
+	padding: 0px 2px;
+	content: '>\00a0';
+}
+
+/* datagrid参考百度云的样式 */
+.knowledge-base-content .gridstatus {
+	float: right;
+	padding: 5px 15px 5px 5px;
+	color: #666666;
+}
+
+.knowledge-base-content .datagrid-toolbar {
+	border: none;
+	background: transparent;
+}
+
+.knowledge-base-content .panel-body {
+	border: none;
+}
+
+.knowledge-base-content .panel {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.knowledge-base-content .datagrid-header {
+	background: transparent;
+}
+
+.knowledge-base-content .datagrid-header td, .knowledge-base-content .datagrid-body td
+	{
+	border-right: 1px dotted transparent;
+}
+
+.knowledge-base-content .datagrid-header-check, .knowledge-base-content .datagrid-cell-check
+	{
+	padding-left: 10px;
+	width: 37px;
+}
+
+.knowledge-base-content .datagrid-row-selected, .knowledge-base-content .datagrid-row-over,
+	.knowledge-base-content td.datagrid-header-over {
+	background: #F4FBFF;
+	color: #424e67;
+}
+
+.knowledge-base-content .archive-icon {
+	float: left;
+	padding: 3px 0px;
+	height: 36px;
+}
+
+.knowledge-base-content .archive-icon .fa {
+	font-size: 30px;
+	color: #31708f;
+}
+
+.knowledge-base-content .archive-name {
+	float: left;
+	/* fallback for browsers which still doesn't support for `calc()` */
+	width: 70%;
+	width: calc(100% - 100px);
+	padding: 3px 5px;
+	height: 36px;
+	white-space: nowrap;
+	word-wrap: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.knowledge-base-content .archive-name a, .knowledge-base-content .archive-name span
+	{
+	height: 34px;
+	line-height: 34px;
+}
+
+.knowledge-base-content .archive-name-tool {
+	float: right;
+	padding: 3px 5px 3px 0px;
+	height: 36px;
+	display: none;
+}
+
+.knowledge-base-content .datagrid-row-over .archive-name-tool {
+	display: block;
+}
+
+.knowledge-base-content .archive-name-tool .fa {
+	font-size: 16px;
+	color: #0098EA;
+	margin-right: 5px;
+	height: 32px;
+	line-height: 32px;
+	cursor: pointer;
+}
+
+/* 知识库管理样式 --END-- */
+
+/* 查看画面的A4纸效果样式 */
+.paper-look {
+	padding: 25px 50px !important;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	min-height: 200px;
+	border: 1px solid black;
+	-moz-box-shadow: 3px 3px 5px #ccc;
+	-webkit-box-shadow: 3px 3px 5px #ccc;
+	box-shadow: 3px 3px 5px #ccc;
+	filter: progid:DXImageTransform.Microsoft.Blur(pixelRadius=2, MakeShadow=false,
+		ShadowOpacity=0.2);
+}
+/**************** Customized End ****************/

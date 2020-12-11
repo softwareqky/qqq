@@ -1,0 +1,10 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+部门名称	EMPLOYEE_MANAGEMENT.department	EMPLOYEE_MANAGEMENT	department	department	部门名称	1	1	1	1	1	1	1	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	110		2	80001		1970-01-01 00:00:00.000			1			
+姓名	EMPLOYEE_MANAGEMENT.name	EMPLOYEE_MANAGEMENT	name	name	姓名	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1,formatter:EmployeeManagement.viewRecordFormatter	0	125		2	80002		1970-01-01 00:00:00.000			1			
+岗位	EMPLOYEE_MANAGEMENT.station	EMPLOYEE_MANAGEMENT	station	station	岗位	1	1	1	1	1	1	0	0				0	1		0		widget:textbox,sortable:1	0	85		2	80003		1970-01-01 00:00:00.000			1			
+入司日期	EMPLOYEE_MANAGEMENT.joinedDate	EMPLOYEE_MANAGEMENT	joinedDate	joinedDateText	入司日期	0	1	1	1	1	1	0	0	1	1	0	0	1		0		widget:datebox,sortable:1	0	85		2	80004		1970-01-01 00:00:00.000			1			
+年龄	EMPLOYEE_MANAGEMENT.age	EMPLOYEE_MANAGEMENT	age	age 	年龄	0	1	1	1	1	1	0	0				0	1		0		widget:combobox,sortable:1	0	85		2	80005		1970-01-01 00:00:00.000			0			
+状态	EMPLOYEE_MANAGEMENT.status	EMPLOYEE_MANAGEMENT	status	status	状态	0	1	1	1	1	1	0	0	2	1	0	0	4		0		widget:combobox,sortable:1,option:onTheJobStatus	0	100		2	80006		1970-01-01 00:00:00.000			0			
+部门负责人	EMPLOYEE_MANAGEMENT.isDivisionDirector	EMPLOYEE_MANAGEMENT	isDivisionDirector	isDivisionDirectorText	部门负责人	0	1	1	1	1	1	0	0				0	1		0		widget:textbox,sortable:1	0	85		2	80007		1970-01-01 00:00:00.000			0			
+离职原因	EMPLOYEE_MANAGEMENT.reason4Leaving	EMPLOYEE_MANAGEMENT	reason4Leaving	reason4Leaving	离职原因	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	100		2	80008		1970-01-01 00:00:00.000			0			
+备注	EMPLOYEE_MANAGEMENT.remark	EMPLOYEE_MANAGEMENT	remark	remark	备注	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	100		2	80009		1970-01-01 00:00:00.000			0			

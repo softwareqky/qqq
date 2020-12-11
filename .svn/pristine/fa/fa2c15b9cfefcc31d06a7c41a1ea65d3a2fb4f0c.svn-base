@@ -1,0 +1,105 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+立项申请人	PROJECT.sponsor	PROJECT	sponsor	sponsor	立项申请人	1	1	1	1	1	1	1	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	立项人	2	10001		1970-01-01 00:00:00.000			0		1	
+部门/单位	PROJECT.f1	PROJECT	f1	f1	部门/单位	1	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	立项人	2	10002		1970-01-01 00:00:00.000			0		0	
+岗位	PROJECT.f2	PROJECT	f2	f2	岗位	1	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	立项人	2	10003		1970-01-01 00:00:00.000			0		0	
+联系方式	PROJECT.f3	PROJECT	f3	f3	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	立项人	2	10004		1970-01-01 00:00:00.000			0		0	
+建设单位	PROJECT.f4	PROJECT	f4	f4	建设单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	建设单位	2	10005		1970-01-01 00:00:00.000			0		1	
+所属行业类型	PROJECT.industrytype	PROJECT	industrytype	industrytype	所属行业类型	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:industrytype	0	4	基本内容	2	10015		1970-01-01 00:00:00.000			0		0	
+联系人	PROJECT.f5	PROJECT	f5	f5	联系人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	建设单位	2	10006		1970-01-01 00:00:00.000			0		0	
+联系方式	PROJECT.f6	PROJECT	f6	f6	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	建设单位	2	10007		1970-01-01 00:00:00.000			0		0	
+联系地址	PROJECT.f7	PROJECT	f7	f7	联系地址	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	建设单位	2	10008		1970-01-01 00:00:00.000			0		0	
+工程编号	PROJECT.constructUnit	PROJECT	constructUnit	constructUnit	工程编号	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	建设单位	2	10009		1970-01-01 00:00:00.000			0		0	
+项目编号	PROJECT.projectNo	PROJECT	projectNo	projectNo	项目编号	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10011		1970-01-01 00:00:00.000			0		1	
+项目名称	PROJECT.projectName	PROJECT	projectName	projectName	项目名称	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10012		1970-01-01 00:00:00.000			0		0	
+计划开始日期	PROJECT.fromDate	PROJECT	fromDate	fromDate	计划开始日期	0	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1	0	4	基本内容	2	10013		1970-01-01 00:00:00.000			0		0	
+计划结束日期	PROJECT.toDate	PROJECT	toDate	toDate	计划结束日期	0	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1	0	4	基本内容	2	10014		1970-01-01 00:00:00.000			0		0	
+所属区域	PROJECT.region	PROJECT	region	region	所属区域	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:region	0	4	基本内容	2	10015		1970-01-01 00:00:00.000			0		0	
+项目地点	PROJECT.f8	PROJECT	f8	f8	项目地点	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10016		1970-01-01 00:00:00.000			0		0	
+工程工期	PROJECT.f9	PROJECT	f9	f9	工程工期	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10017		1970-01-01 00:00:00.000			0		0	
+工程量估算	PROJECT.f10	PROJECT	f10	f10	工程量估算	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10018		1970-01-01 00:00:00.000			0		0	
+币种	PROJECT.f11	PROJECT	f11	f11	币种	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f11	0	4	基本内容	2	10019		1970-01-01 00:00:00.000			0		0	
+工程造价	PROJECT.projectCost	PROJECT	projectCost	projectCost	工程造价	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	基本内容	2	10020		1970-01-01 00:00:00.000			0		0	
+汇率	PROJECT.f12	PROJECT	f12	f12	汇率	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	基本内容	2	10021		1970-01-01 00:00:00.000			0		0	
+折算人民币	PROJECT.f13	PROJECT	f13	f13	折算人民币	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	基本内容	2	10022		1970-01-01 00:00:00.000			0		0	
+预算现场成本比例	PROJECT.f14	PROJECT	f14	f14	预算现场成本比例	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	基本内容	2	10023		1970-01-01 00:00:00.000			0		0	
+预测利润率	PROJECT.f15	PROJECT	f15	f15	预测利润率	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	基本内容	2	10024		1970-01-01 00:00:00.000			0		0	
+项目类型	PROJECT.projectType	PROJECT	projectType	projectType	项目类型	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:projectType	0	4	基本内容	2	10025		1970-01-01 00:00:00.000			0		0	
+专业造价	PROJECT.f16	PROJECT	f16	f16	专业造价	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	基本内容	2	10026		1970-01-01 00:00:00.000			0		0	
+质量等级	PROJECT.f17	PROJECT	f17	f17	质量等级	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f17	0	4	基本内容	2	10027		1970-01-01 00:00:00.000			0		0	
+设计单位	PROJECT.f18	PROJECT	f18	f18	设计单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10028		1970-01-01 00:00:00.000			0		0	
+项目属性	PROJECT.projectAttr	PROJECT	projectAttr	projectAttr	项目属性	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:projectAttr	0	4	基本内容	2	10029		1970-01-01 00:00:00.000			0		0	
+项目审核情况	PROJECT.f19	PROJECT	f19	f19	项目审核情况	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10030		1970-01-01 00:00:00.000			0		0	
+监理单位	PROJECT.f20	PROJECT	f20	f20	监理单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10031		1970-01-01 00:00:00.000			0		0	
+实施项目部	PROJECT.implementDept	PROJECT	implementDept	implementDept	实施项目部	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:implementDept	0	4	基本内容	2	10032		1970-01-01 00:00:00.000			0		0	
+经办人	PROJECT.f21	PROJECT	f21	f21	经办人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	基本内容	2	10033		1970-01-01 00:00:00.000			0		0	
+项目跟踪人	PROJECT.f22	PROJECT	f22	f22	项目跟踪人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	基本内容	2	10034		1970-01-01 00:00:00.000			0		0	
+最终客户	PROJECT.f23	PROJECT	f23	f23	最终客户	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f23	0	4	基本内容	2	10035		1970-01-01 00:00:00.000			0		0	
+PO编号	PROJECT.f24	PROJECT	f24	f24	PO编号	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10036		1970-01-01 00:00:00.000			0		0	
+签约主体	PROJECT.f25	PROJECT	f25	f25	签约主体	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f25	0	4	基本内容	2	10037		1970-01-01 00:00:00.000			0		0	
+区域	PROJECT.f26	PROJECT	f26	f26	区域	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f26	0	4	基本内容	2	10038		1970-01-01 00:00:00.000			0		0	
+承包单位	PROJECT.f27	PROJECT	f27	f27	承包单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	基本内容	2	10039		1970-01-01 00:00:00.000			0		0	
+资质编号	PROJECT.f28	PROJECT	f28	f28	资质编号	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10040		1970-01-01 00:00:00.000			0		0	
+专业类型	PROJECT.f29	PROJECT	f29	f29	专业类型	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f29	0	10	基本内容	2	10041		1970-01-01 00:00:00.000			0		0	
+项目经理要求	PROJECT.f30	PROJECT	f30	f30	项目经理要求	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10042		1970-01-01 00:00:00.000			0		0	
+技术负责人要求	PROJECT.f31	PROJECT	f31	f31	技术负责人要求	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10043		1970-01-01 00:00:00.000			0		0	
+项目简介	PROJECT.f32	PROJECT	f32	f32	项目简介	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10044		1970-01-01 00:00:00.000			0		0	
+信息来源	PROJECT.f33	PROJECT	f33	f33	信息来源	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10045		1970-01-01 00:00:00.000			0		0	
+其他特殊要求	PROJECT.f34	PROJECT	f34	f34	其他特殊要求	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10046		1970-01-01 00:00:00.000			0		0	
+备注	PROJECT.f35	PROJECT	f35	f35	备注	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10047		1970-01-01 00:00:00.000			0		0	
+变更内容	PROJECT.f36	PROJECT	f36	f36	变更内容	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10048		1970-01-01 00:00:00.000			0		0	
+相关附件	PROJECT.f37	PROJECT	f37	f37	相关附件	0	1	1	1	1	1	0	0				0	4		0		widget:filebox,sortable:1,buttonText:浏览	0	10	基本内容	2	10049		1970-01-01 00:00:00.000			0		0	
+资质要求	PROJECT.f38	PROJECT	f38	f38	资质要求	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f38	0	4	商务要求	2	10050		1970-01-01 00:00:00.000			0		1	
+资质等级	PROJECT.f39	PROJECT	f39	f39	资质等级	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	商务要求	2	10051		1970-01-01 00:00:00.000			0		0	
+承包方式	PROJECT.f40	PROJECT	f40	f40	承包方式	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f40	0	4	商务要求	2	10052		1970-01-01 00:00:00.000			0		0	
+付款条件	PROJECT.f41	PROJECT	f41	f41	付款条件	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f41	0	4	商务要求	2	10053		1970-01-01 00:00:00.000			0		0	
+招标形式	PROJECT.f42	PROJECT	f42	f42	招标形式	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f42	0	4	商务要求	2	10054		1970-01-01 00:00:00.000			0		0	
+结算方式	PROJECT.f43	PROJECT	f43	f43	结算方式	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f43	0	4	商务要求	2	10055		1970-01-01 00:00:00.000			0		0	
+预算方式	PROJECT.f44	PROJECT	f44	f44	预算方式	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f44	0	4	商务要求	2	10056		1970-01-01 00:00:00.000			0		0	
+重要程度	PROJECT.f45	PROJECT	f45	f45	重要程度	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f45	0	4	商务要求	2	10057		1970-01-01 00:00:00.000			0		0	
+项目经理	PROJECT.projectManager	PROJECT	projectManager	projectManager	项目经理	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	商务要求	2	10058		1970-01-01 00:00:00.000			0		0	
+联系方式	PROJECT.f46	PROJECT	f46	f46	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	商务要求	2	10059		1970-01-01 00:00:00.000			0		0	
+主要负责人	PROJECT.f47	PROJECT	f47	f47	主要负责人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	商务要求	2	10060		1970-01-01 00:00:00.000			0		0	
+联系方式	PROJECT.f48	PROJECT	f48	f48	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	商务要求	2	10061		1970-01-01 00:00:00.000			0		0	
+业务经理	PROJECT.f49	PROJECT	f49	f49	业务经理	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	商务要求	2	10062		1970-01-01 00:00:00.000			0		0	
+工程类型	PROJECT.f50	PROJECT	f50	f50	工程类型	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f50	0	10	补充内容	2	10063		1970-01-01 00:00:00.000			0		1	
+规模	PROJECT.f51	PROJECT	f51	f51	规模	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10064		1970-01-01 00:00:00.000			0		0	
+等级	PROJECT.f52	PROJECT	f52	f52	等级	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10065		1970-01-01 00:00:00.000			0		0	
+资金来源	PROJECT.f53	PROJECT	f53	f53	资金来源	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10066		1970-01-01 00:00:00.000			0		0	
+资金落实情况	PROJECT.f54	PROJECT	f54	f54	资金落实情况	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10067		1970-01-01 00:00:00.000			0		0	
+建筑面积	PROJECT.f55	PROJECT	f55	f55	建筑面积	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10068		1970-01-01 00:00:00.000			0		0	
+占地面积	PROJECT.f56	PROJECT	f56	f56	占地面积	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10069		1970-01-01 00:00:00.000			0		0	
+地下面积	PROJECT.f57	PROJECT	f57	f57	地下面积	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10070		1970-01-01 00:00:00.000			0		0	
+阅知人	PROJECT.f58	PROJECT	f58	f58	阅知人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	补充内容	2	10071		1970-01-01 00:00:00.000			0		0	
+绿化面积	PROJECT.f59	PROJECT	f59	f59	绿化面积	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10072		1970-01-01 00:00:00.000			0		0	
+园建面积	PROJECT.f60	PROJECT	f60	f60	园建面积	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10073		1970-01-01 00:00:00.000			0		0	
+投标押金	PROJECT.f61	PROJECT	f61	f61	投标押金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	补充内容	2	10074		1970-01-01 00:00:00.000			0		0	
+合同押金	PROJECT.f62	PROJECT	f62	f62	合同押金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	补充内容	2	10075		1970-01-01 00:00:00.000			0		0	
+资料押金	PROJECT.f63	PROJECT	f63	f63	资料押金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	补充内容	2	10076		1970-01-01 00:00:00.000			0		0	
+其他说明	PROJECT.f64	PROJECT	f64	f64	其他说明	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1	0	10	补充内容	2	10077		1970-01-01 00:00:00.000			0		0	
+管理保证金	PROJECT.f65	PROJECT	f65	f65	管理保证金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10078		1970-01-01 00:00:00.000			0		1	
+民工工资保证金	PROJECT.f66	PROJECT	f66	f66	民工工资保证金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10079		1970-01-01 00:00:00.000			0		0	
+管理费率%	PROJECT.f67	PROJECT	f67	f67	管理费率%	0	1	1	1	1	1	0	0				0	3	0,100,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10080		1970-01-01 00:00:00.000			0		0	
+履约保证金	PROJECT.f68	PROJECT	f68	f68	履约保证金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10081		1970-01-01 00:00:00.000			0		0	
+其他保证金	PROJECT.f69	PROJECT	f69	f69	其他保证金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10082		1970-01-01 00:00:00.000			0		0	
+税率%	PROJECT.f70	PROJECT	f70	f70	税率%	0	1	1	1	1	1	0	0				0	3	0,100,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10083		1970-01-01 00:00:00.000			0		0	
+成本费用率%	PROJECT.f71	PROJECT	f71	f71	成本费用率%	0	1	1	1	1	1	0	0				0	3	0,100,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10084		1970-01-01 00:00:00.000			0		0	
+质保金比例%	PROJECT.f72	PROJECT	f72	f72	质保金比例%	0	1	1	1	1	1	0	0				0	3	0,100,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10085		1970-01-01 00:00:00.000			0		0	
+核减押金扣除比例%	PROJECT.f73	PROJECT	f73	f73	核减押金扣除比例%	0	1	1	1	1	1	0	0				0	3	0,100,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10086		1970-01-01 00:00:00.000			0		0	
+风险保证金扣除比例%	PROJECT.f74	PROJECT	f74	f74	风险保证金扣除比例%	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10087		1970-01-01 00:00:00.000			0		0	
+安全生产费	PROJECT.safeFee	PROJECT	safeFee	safeFee	安全生产费	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10088		1970-01-01 00:00:00.000			0		0	
+投标保证金	PROJECT.f75	PROJECT	f75	f75	投标保证金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10089		1970-01-01 00:00:00.000			0		0	
+投资方	PROJECT.f76	PROJECT	f76	f76	投资方	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10090		1970-01-01 00:00:00.000			0		1	
+负责人	PROJECT.f77	PROJECT	f77	f77	负责人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10091		1970-01-01 00:00:00.000			0		0	
+联系方式	PROJECT.f78	PROJECT	f78	f78	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10092		1970-01-01 00:00:00.000			0		0	
+设计单位	PROJECT.f79	PROJECT	f79	f79	设计单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10093		1970-01-01 00:00:00.000			0		0	
+负责人	PROJECT.f80	PROJECT	f80	f80	负责人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10094		1970-01-01 00:00:00.000			0		0	
+联系方式	PROJECT.f81	PROJECT	f81	f81	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10095		1970-01-01 00:00:00.000			0		0	
+监理单位	PROJECT.f82	PROJECT	f82	f82	监理单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10096		1970-01-01 00:00:00.000			0		0	
+负责人	PROJECT.f83	PROJECT	f83	f83	负责人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10097		1970-01-01 00:00:00.000			0		0	
+联系方式	PROJECT.f84	PROJECT	f84	f84	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10098		1970-01-01 00:00:00.000			0		0	
+施工单位	PROJECT.f85	PROJECT	f85	f85	施工单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10099		1970-01-01 00:00:00.000			0		0	
+负责人	PROJECT.f86	PROJECT	f86	f86	负责人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10100		1970-01-01 00:00:00.000			0		0	
+联系方式	PROJECT.f87	PROJECT	f87	f87	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10101		1970-01-01 00:00:00.000			0		0	
+总包单位	PROJECT.f88	PROJECT	f88	f88	总包单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10102		1970-01-01 00:00:00.000			0		0	
+负责人	PROJECT.f89	PROJECT	f89	f89	负责人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10103		1970-01-01 00:00:00.000			0		0	
+联系方式	PROJECT.f90	PROJECT	f90	f90	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10104		1970-01-01 00:00:00.000			0		0	

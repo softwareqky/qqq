@@ -1,0 +1,6 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+申请人	REGISTRATION.f1	REGISTRATION	f1	f1	申请人	1	1	1	1	1	1	1	0				0	4	50	1	管理员	widget:textbox,sortable:1,width:635	0	12	报名结果	2	10002		1970-01-01 00:00:00.000			0		0	
+通知日期	REGISTRATION.f2	REGISTRATION	f2	f2	通知日期	1	1	1	1	1	1	1	0				0	4	50	1	2019-8-8	widget:textbox,sortable:1,width:635	0	12	报名结果	2	10003		1970-01-01 00:00:00.000			0		0	
+报名结果	REGISTRATION.projectStatus	REGISTRATION	projectStatus	projectStatus	报名结果	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:projectStatus	0	12	报名结果	2	10052		1970-01-01 00:00:00.000			0		0	
+相关附件	REGISTRATION.f14	REGISTRATION	f14	f14	相关附件	0	1	1	1	1	1	0	0				0	4	50	0		widget:filebox,sortable:1,width:635,buttonText:浏览	0	12	报名结果	2	10010		1970-01-01 00:00:00.000			0		0	
+原因分析	REGISTRATION.f15	REGISTRATION	f15	f15	原因分析	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:635,multiline:1	0	12	报名结果	2	10011		1970-01-01 00:00:00.000			0		0	

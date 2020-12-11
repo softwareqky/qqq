@@ -1,0 +1,13 @@
+shortcut.ico = /themes/origin/img/ico.ico
+
+adminlte.css = /themes/origin/css/util/adminlte/AdminLTE.min.css
+adminlte.skin.css = /themes/origin/css/util/adminlte/skins/skin-blue.min.css
+
+easyui.css = /themes/origin/css/util/easyui/origin/easyui.css
+easyui.icon.css = /themes/origin/css/util/easyui/icon.css
+custom.css = /themes/origin/css/custom.css
+login.css = /themes/origin/css/login/login.css
+home.css = /themes/origin/css/home/home.css
+
+dhtmlxgantt.css = /themes/origin/css/util/dhtmlxgantt/dhtmlxgantt.css
+dhtmlxgantt.skin.css = /themes/origin/css/util/dhtmlxgantt/skins/dhtmlxgantt_broadway.css

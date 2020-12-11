@@ -1,0 +1,96 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+立项申请人	INFO.applicant	INFO	applicant	applicant	立项申请人	1	1	1	1	1	1	1	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	立项人	2	10001		1970-01-01 00:00:00.000			0		1	
+部门/单位	INFO.applicationDept	INFO	applicationDept	applicationDept	部门/单位	1	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	立项人	2	10006		1970-01-01 00:00:00.000			0		0	
+岗位	INFO.f2	INFO	f2	f2	岗位	1	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	立项人	2	10011		1970-01-01 00:00:00.000			0		0	
+联系方式	INFO.f3	INFO	f3	f3	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	立项人	2	10016		1970-01-01 00:00:00.000			0		0	
+建设单位	INFO.constructUnit	INFO	constructUnit	constructUnit	建设单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	建设单位	2	10021		1970-01-01 00:00:00.000			0		1	
+所属行业类型	INFO.f5	INFO	f5	f5	所属行业类型	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	建设单位	2	10026		1970-01-01 00:00:00.000			0		0	
+联系人	INFO.f6	INFO	f6	f6	联系人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	建设单位	2	10031		1970-01-01 00:00:00.000			0		0	
+工程编号	INFO.f7	INFO	f7	f7	工程编号	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	建设单位	2	10036		1970-01-01 00:00:00.000			0		0	
+联系方式	INFO.f8	INFO	f8	f8	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	建设单位	2	10041		1970-01-01 00:00:00.000			0		0	
+联系地址	INFO.f9	INFO	f9	f9	联系地址	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	建设单位	2	10046		1970-01-01 00:00:00.000			0		0	
+项目编号	INFO.infoNo	INFO	infoNo	infoNo	项目编号	1	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10051		1970-01-01 00:00:00.000			0		1	
+项目名称	INFO.infoName	INFO	infoName	infoName	项目名称	1	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10056		1970-01-01 00:00:00.000			0		0	
+计划开始日期	INFO.fromDate	INFO	fromDate	fromDate	计划开始日期	0	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1	0	4	基本内容	2	10061		1970-01-01 00:00:00.000			0		0	
+计划结束日期	INFO.toDate	INFO	toDate	toDate	计划结束日期	0	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1	0	4	基本内容	2	10066		1970-01-01 00:00:00.000			0		0	
+所属区域	INFO.region	INFO	region	region	所属区域	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:region	0	4	基本内容	2	10071		1970-01-01 00:00:00.000			0		0	
+项目地点	INFO.f10	INFO	f10	f10	项目地点	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10076		1970-01-01 00:00:00.000			0		0	
+工程工期	INFO.infoPeriod	INFO	infoPeriod	infoPeriod	工程工期	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10081		1970-01-01 00:00:00.000			0		0	
+工程量估算	INFO.f12	INFO	f12	f12	工程量估算	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10086		1970-01-01 00:00:00.000			0		0	
+工程造价	INFO.infoCost	INFO	infoCost	infoCost	工程造价	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	基本内容	2	10091		1970-01-01 00:00:00.000			0		0	
+预测利润率	INFO.f13	INFO	f13	f13	预测利润率	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	基本内容	2	10096		1970-01-01 00:00:00.000			0		0	
+已出方案	INFO.outOfPlan	INFO	outOfPlan	outOfPlan	已出方案	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:outOfPlan	0	4	基本内容	2	10101		1970-01-01 00:00:00.000			0		0	
+目前状态	INFO.f14	INFO	f14	f14	目前状态	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10106		1970-01-01 00:00:00.000			0		0	
+项目类型	INFO.infoType	INFO	infoType	infoType	项目类型	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:infoType	0	4	基本内容	2	10111		1970-01-01 00:00:00.000			0		0	
+专业造价	INFO.f15	INFO	f15	f15	专业造价	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	基本内容	2	10116		1970-01-01 00:00:00.000			0		0	
+质量等级	INFO.qualityLevel	INFO	qualityLevel	qualityLevel	质量等级	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:qualityLevel	0	4	基本内容	2	10121		1970-01-01 00:00:00.000			0		0	
+设计单位	INFO.f17	INFO	f17	f17	设计单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10126		1970-01-01 00:00:00.000			0		0	
+项目属性	INFO.infoAttr	INFO	infoAttr	infoAttr	项目属性	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:infoAttr	0	4	基本内容	2	10131		1970-01-01 00:00:00.000			0		0	
+项目审核情况	INFO.f18	INFO	f18	f18	项目审核情况	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10136		1970-01-01 00:00:00.000			0		0	
+招标代理单位	INFO.f19	INFO	f19	f19	招标代理单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10141		1970-01-01 00:00:00.000			0		0	
+监理单位	INFO.f20	INFO	f20	f20	监理单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10146		1970-01-01 00:00:00.000			0		0	
+项目跟踪人	INFO.f21	INFO	f21	f21	项目跟踪人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	基本内容	2	10151		1970-01-01 00:00:00.000			0		0	
+最终客户	INFO.f22	INFO	f22	f22	最终客户	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:f23	0	4	基本内容	2	10156		1970-01-01 00:00:00.000			0		0	
+工程类型	INFO.infoStatus	INFO	infoStatus	infoStatus	工程类型	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:infoStatus	0	4	基本内容	2	10161		1970-01-01 00:00:00.000			0		0	
+实施项目部	INFO.implementDept	INFO	implementDept	implementDept	实施项目部	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:implementDept	0	4	基本内容	2	10166		1970-01-01 00:00:00.000			0		0	
+资质编号	INFO.f23	INFO	f23	f23	资质编号	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本内容	2	10171		1970-01-01 00:00:00.000			0		0	
+项目经理要求	INFO.f24	INFO	f24	f24	项目经理要求	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10176		1970-01-01 00:00:00.000			0		0	
+技术负责人要求	INFO.f25	INFO	f25	f25	技术负责人要求	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10181		1970-01-01 00:00:00.000			0		0	
+项目简介	INFO.f26	INFO	f26	f26	项目简介	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10186		1970-01-01 00:00:00.000			0		0	
+信息来源	INFO.f27	INFO	f27	f27	信息来源	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10191		1970-01-01 00:00:00.000			0		0	
+其他特殊要求	INFO.f28	INFO	f28	f28	其他特殊要求	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10196		1970-01-01 00:00:00.000			0		0	
+相关公告	INFO.f29	INFO	f29	f29	相关公告	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本内容	2	10201		1970-01-01 00:00:00.000			0		0	
+相关附件	INFO.f30	INFO	f30	f30	相关附件	0	1	1	1	1	1	0	0				0	4		0		widget:filebox,sortable:1,buttonText:浏览	0	10	基本内容	2	10206		1970-01-01 00:00:00.000			0		0	
+资质要求	INFO.qualificationLevel	INFO	qualificationLevel	qualificationLevel	资质要求	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:qualificationLevel	0	4	商务要求	2	10211		1970-01-01 00:00:00.000			0		1	
+资质等级	INFO.f32	INFO	f32	f32	资质等级	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	商务要求	2	10216		1970-01-01 00:00:00.000			0		0	
+承包方式	INFO.contracting	INFO	contracting	contracting	承包方式	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:contracting	0	4	商务要求	2	10221		1970-01-01 00:00:00.000			0		0	
+付款条件	INFO.paymentTerms	INFO	paymentTerms	paymentTerms	付款条件	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:paymentTerms	0	4	商务要求	2	10226		1970-01-01 00:00:00.000			0		0	
+招标形式	INFO.tenderForm	INFO	tenderForm	tenderForm	招标形式	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:tenderForm	0	4	商务要求	2	10231		1970-01-01 00:00:00.000			0		0	
+结算方式	INFO.settlementMethod	INFO	settlementMethod	settlementMethod	结算方式	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:settlementMethod	0	4	商务要求	2	10236		1970-01-01 00:00:00.000			0		0	
+预算方式	INFO.budgetMethod	INFO	budgetMethod	budgetMethod	预算方式	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:budgetMethod	0	4	商务要求	2	10241		1970-01-01 00:00:00.000			0		0	
+重要程度	INFO.importance	INFO	importance	importance	重要程度	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:importance	0	4	商务要求	2	10246		1970-01-01 00:00:00.000			0		0	
+主要负责人	INFO.f39	INFO	f39	f39	主要负责人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	商务要求	2	10251		1970-01-01 00:00:00.000			0		0	
+联系方式	INFO.f40	INFO	f40	f40	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	商务要求	2	10256		1970-01-01 00:00:00.000			0		0	
+项目经理	INFO.projectManager	INFO	projectManager	projectManager	项目经理	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	商务要求	2	10261		1970-01-01 00:00:00.000			0		0	
+联系方式	INFO.f41	INFO	f41	f41	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	商务要求	2	10266		1970-01-01 00:00:00.000			0		0	
+工程类型	INFO.projectType	INFO	projectType	projectType	工程类型	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:projectType	0	10	补充内容	2	10271		1970-01-01 00:00:00.000			0		1	
+规模	INFO.f43	INFO	f43	f43	规模	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10276		1970-01-01 00:00:00.000			0		0	
+等级	INFO.f44	INFO	f44	f44	等级	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10281		1970-01-01 00:00:00.000			0		0	
+资金来源	INFO.f45	INFO	f45	f45	资金来源	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10286		1970-01-01 00:00:00.000			0		0	
+资金落实情况	INFO.f46	INFO	f46	f46	资金落实情况	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10291		1970-01-01 00:00:00.000			0		0	
+建筑面积	INFO.f47	INFO	f47	f47	建筑面积	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10296		1970-01-01 00:00:00.000			0		0	
+占地面积	INFO.f48	INFO	f48	f48	占地面积	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10301		1970-01-01 00:00:00.000			0		0	
+地下面积	INFO.f49	INFO	f49	f49	地下面积	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10306		1970-01-01 00:00:00.000			0		0	
+阅知人	INFO.f50	INFO	f50	f50	阅知人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,buttonText:…	0	4	补充内容	2	10311		1970-01-01 00:00:00.000			0		0	
+绿化面积	INFO.f51	INFO	f51	f51	绿化面积	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10316		1970-01-01 00:00:00.000			0		0	
+园建面积	INFO.f52	INFO	f52	f52	园建面积	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	补充内容	2	10321		1970-01-01 00:00:00.000			0		0	
+投标押金	INFO.f53	INFO	f53	f53	投标押金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	补充内容	2	10326		1970-01-01 00:00:00.000			0		0	
+合同押金	INFO.f54	INFO	f54	f54	合同押金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	补充内容	2	10331		1970-01-01 00:00:00.000			0		0	
+资料押金	INFO.f55	INFO	f55	f55	资料押金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	补充内容	2	10336		1970-01-01 00:00:00.000			0		0	
+其他说明	INFO.f56	INFO	f56	f56	其他说明	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1	0	10	补充内容	2	10341		1970-01-01 00:00:00.000			0		0	
+管理保证金	INFO.f57	INFO	f57	f57	管理保证金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10346		1970-01-01 00:00:00.000			0		1	
+民工工资保证金	INFO.f58	INFO	f58	f58	民工工资保证金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10351		1970-01-01 00:00:00.000			0		0	
+管理费率%	INFO.f59	INFO	f59	f59	管理费率%	0	1	1	1	1	1	0	0				0	3	0,100,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10356		1970-01-01 00:00:00.000			0		0	
+履约保证金	INFO.f60	INFO	f60	f60	履约保证金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10361		1970-01-01 00:00:00.000			0		0	
+其他保证金	INFO.f61	INFO	f61	f61	其他保证金	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10366		1970-01-01 00:00:00.000			0		0	
+税率%	INFO.f62	INFO	f62	f62	税率%	0	1	1	1	1	1	0	0				0	3	0,100,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10371		1970-01-01 00:00:00.000			0		0	
+成本费用率%	INFO.f63	INFO	f63	f63	成本费用率%	0	1	1	1	1	1	0	0				0	3	0,100,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10376		1970-01-01 00:00:00.000			0		0	
+质保金比例%	INFO.f64	INFO	f64	f64	质保金比例%	0	1	1	1	1	1	0	0				0	3	0,100,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10381		1970-01-01 00:00:00.000			0		0	
+核减押金扣除比例%	INFO.f65	INFO	f65	f65	核减押金扣除比例%	0	1	1	1	1	1	0	0				0	3	0,100,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10386		1970-01-01 00:00:00.000			0		0	
+风险保证金扣除比例%	INFO.f66	INFO	f66	f66	风险保证金扣除比例%	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10391		1970-01-01 00:00:00.000			0		0	
+安全生产费	INFO.safeFee	INFO	safeFee	safeFee	安全生产费	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	管理参数	2	10396		1970-01-01 00:00:00.000			0		0	
+投资方	INFO.f67	INFO	f67	f76	投资方	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10401		1970-01-01 00:00:00.000			0		1	
+负责人	INFO.f68	INFO	f68	f68	负责人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10406		1970-01-01 00:00:00.000			0		0	
+联系方式	INFO.f69	INFO	f69	f69	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10411		1970-01-01 00:00:00.000			0		0	
+设计单位	INFO.f70	INFO	f70	f70	设计单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10416		1970-01-01 00:00:00.000			0		0	
+负责人	INFO.f71	INFO	f71	f71	负责人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10421		1970-01-01 00:00:00.000			0		0	
+联系方式	INFO.f72	INFO	f72	f72	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10426		1970-01-01 00:00:00.000			0		0	
+监理单位	INFO.f73	INFO	f73	f73	监理单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10431		1970-01-01 00:00:00.000			0		0	
+负责人	INFO.f74	INFO	f74	f74	负责人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10436		1970-01-01 00:00:00.000			0		0	
+联系方式	INFO.f75	INFO	f75	f75	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10441		1970-01-01 00:00:00.000			0		0	
+施工单位	INFO.f76	INFO	f76	f76	施工单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10446		1970-01-01 00:00:00.000			0		0	
+负责人	INFO.f77	INFO	f77	f77	负责人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10451		1970-01-01 00:00:00.000			0		0	
+联系方式	INFO.f78	INFO	f78	f78	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10456		1970-01-01 00:00:00.000			0		0	
+总包单位	INFO.f79	INFO	f79	f79	总包单位	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10461		1970-01-01 00:00:00.000			0		0	
+负责人	INFO.f80	INFO	f80	f80	负责人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10466		1970-01-01 00:00:00.000			0		0	
+联系方式	INFO.f81	INFO	f81	f81	联系方式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:170	0	3	单位及负责人	2	10471		1970-01-01 00:00:00.000			0		0	

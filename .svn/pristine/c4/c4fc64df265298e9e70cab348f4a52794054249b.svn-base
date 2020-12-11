@@ -1,0 +1,12 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+落标申请人	BINDFAILED.f1	BINDFAILED	f1	f1	落标申请人	0	1	1	1	1	1	1	0				0	4	50	1	管理员	widget:textbox,sortable:1	0	4	落标信息管理	2	10002		1970-01-01 00:00:00.000			0		0	
+申请日期	BINDFAILED.f2	BINDFAILED	f2	f2	申请日期	0	1	1	1	1	1	1	0				0	4	50	1	2019-8-8	widget:textbox,sortable:1	0	4	落标信息管理	2	10003		1970-01-01 00:00:00.000			0		0	
+落标日期	BINDFAILED.f3	BINDFAILED	f3	f3	落标日期	1	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1	0	4	落标信息管理	2	10004		1970-01-01 00:00:00.000			0		0	
+投标保证金	BINDFAILED.f5	BINDFAILED	f5	f5	投标保证金	0	1	1	1	1	1	1	0				0	3	0,999999,2	1	5000.00	widget:numberbox,sortable:1	0	4	落标信息管理	2	10006		1970-01-01 00:00:00.000			0		0	
+是否退还	BINDFAILED.giveback	BINDFAILED	giveback	giveback	是否退还	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:givebacks	0	4	落标信息管理	2	10007		1970-01-01 00:00:00.000			0		0	
+告知人	BINDFAILED.projectmanager	BINDFAILED	projectmanager	projectmanager	告知人	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:projectmanagers	0	4	落标信息管理	2	10008		1970-01-01 00:00:00.000			0		0	
+竞争对手	BINDFAILED.company	BINDFAILED	company	company	竞争对手	0	1	1	1	1	1	0	0				0	4		0		widget:combobox,sortable:1,option:company	0	4	落标信息管理	2	10009		1970-01-01 00:00:00.000			0		0	
+评分排名	BINDFAILED.f16	BINDFAILED	f16	f16	评分排名	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	落标信息管理	2	10010		1970-01-01 00:00:00.000			0		0	
+相关附件	BINDFAILED.f14	BINDFAILED	f14	f14	相关附件	0	1	1	1	1	1	0	0				0	4	50	0		widget:filebox,sortable:1,buttonText:浏览	0	4	落标信息管理	2	10012		1970-01-01 00:00:00.000			0		0	
+未中标原因分析	BINDFAILED.f15	BINDFAILED	f15	f15	未中标原因分析	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:635,multiline:1	0	12	落标信息管理	2	10013		1970-01-01 00:00:00.000			0		0	
+落标原因	BINDFAILED.f15	BINDFAILED	f15	f13	落标原因	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:635,multiline:1	0	12	落标信息管理	2	10014		1970-01-01 00:00:00.000			0		0	

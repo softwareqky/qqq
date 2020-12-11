@@ -1,0 +1,9 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+项目编号	PROJECT_STATE_CHANGE_NEW_STATE.projectNo	PROJECT_STATE_CHANGE_NEW_STATE	projectNo	projectNo	项目编号	1	1	1	1	1	1	1	0	1	1	2	0	4	50	0		widget:textbox,sortable:1,width:635	0	10	变更状态	2	30001		1970-01-01 00:00:00.000			1		1	
+项目名称	PROJECT_STATE_CHANGE_NEW_STATE.projectName	PROJECT_STATE_CHANGE_NEW_STATE	projectName	projectName	项目名称	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1,width:635	0	10	变更状态	2	30002		1970-01-01 00:00:00.000			1		0	
+项目状态	PROJECT_STATE_CHANGE_NEW_STATE.projectStatus	PROJECT_STATE_CHANGE_NEW_STATE	projectStatus	projectStatus	项目状态	0	1	1	1	1	1	0	0	1	1	0	0	4	50	0		widget:textbox,sortable:1,width:635	0	10	变更状态	2	30003		1970-01-01 00:00:00.000			1		0	
+调整状态	PROJECT_STATE_CHANGE_NEW_STATE.newState	PROJECT_STATE_CHANGE_NEW_STATE	newState	newState	调整状态	0	1	1	1	1	1	0	0	1	1	0	0	4	50	0		widget:textbox,sortable:1,width:635	0	10	变更状态	2	30004		1970-01-01 00:00:00.000			0		0	
+调整人	PROJECT_STATE_CHANGE_NEW_STATE.f1	PROJECT_STATE_CHANGE_NEW_STATE	f1	f1	调整人	0	1	1	1	1	1	0	0	2	1	0	0	4		0		widget:textbox,sortable:1,width:635	0	10	变更状态	2	30005		1970-01-01 00:00:00.000			0		0	
+调整日期	PROJECT_STATE_CHANGE_NEW_STATE.f2	PROJECT_STATE_CHANGE_NEW_STATE	f2	f2	调整日期	0	1	1	1	1	1	0	0	2	1	0	0	4		0		widget:datebox,sortable:1,width:635	0	10	变更状态	2	30006		1970-01-01 00:00:00.000			0		0	
+调整原因	PROJECT_STATE_CHANGE_NEW_STATE.f3	PROJECT_STATE_CHANGE_NEW_STATE	f3	f3	调整原因	0	1	1	1	1	1	0	0	2	1	0	0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	变更状态	2	30007		1970-01-01 00:00:00.000			0		0	
+备注	PROJECT_STATE_CHANGE_NEW_STATE.f4	PROJECT_STATE_CHANGE_NEW_STATE	f4	f4	备注	0	1	1	1	1	1	0	0				0	4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	变更状态	2	30008		1970-01-01 00:00:00.000			0		0	

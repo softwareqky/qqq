@@ -1,0 +1,9 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+单位名称	COMPANY_MANAGEMENT.companyName	COMPANY_MANAGEMENT	companyName	companyName	单位名称	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1,formatter:CompanyManagement.viewRecordFormatter	0	125		2	100001		1970-01-01 00:00:00.000			1			
+推荐供应商	COMPANY_MANAGEMENT.isSupplier	COMPANY_MANAGEMENT	isSupplier	isSupplierText	推荐供应商	1	1	1	1	1	1	0	0				0	4		0		widget:textbox,sortable:1	0	85		2	100002		1970-01-01 00:00:00.000			1			
+单位性质	COMPANY_MANAGEMENT.unitProperties	COMPANY_MANAGEMENT	unitProperties	unitProperties	单位性质	0	1	1	1	1	1	0	0				0	4		0		widget:textbox,sortable:1	0	85		2	100003		1970-01-01 00:00:00.000			1			
+单位类型	COMPANY_MANAGEMENT.unitType	COMPANY_MANAGEMENT	unitType	unitType	单位类型	0	1	1	1	1	1	0	0				0	4		0		widget:textbox,sortable:1	0	85		2	100004		1970-01-01 00:00:00.000			0			
+经营类别	COMPANY_MANAGEMENT.businessCategory	COMPANY_MANAGEMENT	businessCategory	businessCategory	经营类别	0	1	1	1	1	1	0	0				0	4		0		widget:textbox,sortable:1	0	100		2	100005		1970-01-01 00:00:00.000			0			
+产品概况	COMPANY_MANAGEMENT.productProfile	COMPANY_MANAGEMENT	productProfile	productProfile	产品概况	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	100		2	100006		1970-01-01 00:00:00.000			0			
+联系人	COMPANY_MANAGEMENT.contacts	COMPANY_MANAGEMENT	contacts	contacts	联系人	0	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	100		2	100007		1970-01-01 00:00:00.000			0			
+流程状态	COMPANY_MANAGEMENT.processStatus	COMPANY_MANAGEMENT	processStatus	processStatus	流程状态	0	1	1	1	1	1	0	0				0	4		0		widget:textbox,sortable:1	0	85		2	100008		1970-01-01 00:00:00.000			0			

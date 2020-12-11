@@ -1,0 +1,12 @@
+ID	画面(模块/功能)名	数据类型	图标	排序依据	URL链接	上级画面ID	画面叶节点	功能节点	是否启用	是否可自定义	区域/门店	备注	是否可用于菜单	是否可配置权限	是否全局可见	许可证功能ID	备注（中文，不写入数据库）
+P4001F01	新建		icon-func-add	400101		P4001	0	1	1	0	2		0	1	1		新建
+P4001F02	删除		icon-func-delete	400102		P4001	0	1	1	0	2		0	1	1		删除
+P4001F03	修改		icon-func-edit	400103		P4001	0	1	1	0	2		0	1	1		修改
+P4001F04	查看		icon-func-view	400104		P4001	0	1	1	0	2		0	1	1		查看
+P4001F08	提交审核		icon-func-audit-submit	400108		P4001	0	1	1	0	2		0	1	1		提交审核
+P4001F09	撤回		icon-func-audit-withdraw	400109		P4001	0	1	1	0	2		0	1	1		撤回
+P4001F10	流程状态		icon-func-process-status	400110		P4001	0	1	1	0	2		0	1	1		流程状态
+P4001F11	审核记录		icon-func-audit-record	400111		P4001	0	1	1	0	2		0	1	1		审核记录
+P4001F30	检索		icon-func-search	400130		P4001	0	1	1	0	2		0	1	1		检索
+P4001F31	清空检索		icon-func-clear-search	400131		P4001	0	1	1	0	2		0	1	1		清空检索
+P4001F32	高级检索		icon-func-search-more	400232		P4002	0	1	1	0	2		0	1	1		高级检索

@@ -1,0 +1,11 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+姓名	EXPERT_MANAGEMENT.name	EXPERT_MANAGEMENT	name	name	姓名	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1,formatter:EmployeeManagement.viewRecordFormatter	0	125		2	90001		1970-01-01 00:00:00.000			1			
+岗位	EXPERT_MANAGEMENT.station	EXPERT_MANAGEMENT	station	station	岗位	1	1	1	1	1	1	0	0				0	1		0		widget:textbox,sortable:1	0	85		2	90002		1970-01-01 00:00:00.000			1			
+入司日期	EXPERT_MANAGEMENT.joinedDate	EXPERT_MANAGEMENT	joinedDate	joinedDateText	入司日期	0	1	1	1	1	1	0	0	1	1	0	0	1		0		widget:datebox,sortable:1	0	85		2	90003		1970-01-01 00:00:00.000			1			
+年龄	EXPERT_MANAGEMENT.age	EXPERT_MANAGEMENT	age	age 	年龄	0	1	1	1	1	1	0	0				0	1		0		widget:combobox,sortable:1	0	85		2	90004		1970-01-01 00:00:00.000			0			
+状态	EXPERT_MANAGEMENT.status	EXPERT_MANAGEMENT	status	status	状态	0	1	1	1	1	1	0	0	2	1	0	0	4		0		widget:combobox,sortable:1,option:onTheJobStatus	0	100		2	90005		1970-01-01 00:00:00.000			0			
+专业	EXPERT_MANAGEMENT.major	EXPERT_MANAGEMENT	major	major	专业	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	90006		1970-01-01 00:00:00.000			0			
+等级	EXPERT_MANAGEMENT.rank	EXPERT_MANAGEMENT	rank	rank	等级	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	90007		1970-01-01 00:00:00.000			0			
+部门负责人	EXPERT_MANAGEMENT.isDivisionDirector	EXPERT_MANAGEMENT	isDivisionDirector	isDivisionDirectorText	部门负责人	0	1	1	1	1	1	0	0				0	1		0		widget:textbox,sortable:1	0	85		2	90008		1970-01-01 00:00:00.000			0			
+离职原因	EXPERT_MANAGEMENT.reason4Leaving	EXPERT_MANAGEMENT	reason4Leaving	reason4Leaving	离职原因	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	100		2	90009		1970-01-01 00:00:00.000			0			
+备注	EXPERT_MANAGEMENT.remark	EXPERT_MANAGEMENT	remark	remark	备注	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	100		2	90010		1970-01-01 00:00:00.000			0			

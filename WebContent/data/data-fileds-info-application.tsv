@@ -1,0 +1,21 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+项目编号	INFO.infoNo	INFO	infoNo	infoNo	项目编号	1	1	1	1	1	1	1	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	110		2	10001		1970-01-01 00:00:00.000			1			
+项目名称	INFO.infoName	INFO	infoName	infoName	项目名称	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	125		2	10006		1970-01-01 00:00:00.000			1			
+项目状态	INFO.infoStatus	INFO	infoStatus	infoStatus	项目状态	0	1	1	1	1	1	0	0				0	1		0		widget:combobox,sortable:1,option:infoStatus	0	85		2	10011		1970-01-01 00:00:00.000			1			
+项目类型	INFO.infoType	INFO	infoType	infoType	项目类型	0	1	1	1	1	1	0	0	2	1	0	0	1		0		widget:combobox,sortable:1,option:infoType	0	85		2	10016		1970-01-01 00:00:00.000			0			
+立项申请人	INFO.applicant	INFO	applicant	applicant	立项申请人	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	10021		1970-01-01 00:00:00.000			0			
+申请部门	INFO.applicationDept	INFO	applicationDept	applicationDept	申请部门	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	180		2	10026		1970-01-01 00:00:00.000			0			
+建设单位	INFO.constructUnit	INFO	constructUnit	constructUnit	建设单位	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	180		2	10031		1970-01-01 00:00:00.000			0			
+工程造价	INFO.infoCost	INFO	infoCost	infoCost	工程造价	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	100		2	10036		1970-01-01 00:00:00.000			0			
+安全生产费	INFO.safeFee	INFO	safeFee	safeFee	安全生产费	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	100		2	10041		1970-01-01 00:00:00.000			0			
+工程工期	INFO.infoPeriod	INFO	infoPeriod	infoPeriod	工程工期	1	1	1	1	1	1	1	0				0	4	50	0		widget:textbox,sortable:1	0	110		2	10046		1970-01-01 00:00:00.000			1			
+立项申请日期	INFO.initApplyDate	INFO	initApplyDate	initApplyDate	立项申请日期	0	1	1	1	1	1	0	0	2	2	0	0	5		0		widget:datebox,sortable:1	0	110		2	10051		1970-01-01 00:00:00.000			0			
+开始日期	INFO.fromDate	INFO	fromDate	fromDate	开始日期	0	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1	0	100		2	10052		1970-01-01 00:00:00.000			0			
+结束日期	INFO.toDate	INFO	toDate	fromDate	结束日期	0	1	1	1	1	1	0	0				0	5		0		widget:datebox,sortable:1	0	100		2	10053		1970-01-01 00:00:00.000			0			
+流程状态	INFO.processStatus	INFO	processStatus	processStatus	流程状态	0	1	1	1	1	1	0	0	2	1	0	0	1		0		widget:combobox,sortable:1,option:processStatus	0	85		2	10056		1970-01-01 00:00:00.000			0			
+项目属性	INFO.infoAttr	INFO	infoAttr	infoAttr	项目属性	1	1	1	1	1	1	0	0	2	1	0	0	1		0		widget:combobox,sortable:1,option:infoAttr	0	85		2	10061		1970-01-01 00:00:00.000			1			
+招标形式	INFO.tenderForm	INFO	tenderForm	tenderForm	招标形式	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	100		2	10066		1970-01-01 00:00:00.000			0			
+联营人	INFO.associated	INFO	associated	associated	联营人	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	10071		1970-01-01 00:00:00.000			0			
+推荐人	INFO.referee	INFO	referee	referee	推荐人	0	1	1	1	1	1	0	0	2	1	2	0	4	50	0		widget:textbox,sortable:1	0	100		2	10076		1970-01-01 00:00:00.000			0			
+分公司	INFO.subCompany	INFO	subCompany	subCompany	分公司	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	10081		1970-01-01 00:00:00.000			0			
+项目简介	INFO.remark	INFO	remark	remark	项目简介	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	100		2	10086		1970-01-01 00:00:00.000			0			

@@ -1,0 +1,267 @@
+.icon-blank {
+	background: url('icons/blank.gif') no-repeat center center;
+}
+
+.icon-add {
+	background: url('icons/edit_add.png') no-repeat center center;
+}
+
+.icon-edit {
+	background: url('icons/pencil.png') no-repeat center center;
+}
+
+.icon-clear {
+	background: url('icons/clear.png') no-repeat center center;
+}
+
+.icon-remove {
+	background: url('icons/edit_remove.png') no-repeat center center;
+}
+
+.icon-save {
+	background: url('icons/filesave.png') no-repeat center center;
+}
+
+.icon-cut {
+	background: url('icons/cut.png') no-repeat center center;
+}
+
+.icon-ok {
+	background: url('icons/ok.png') no-repeat center center;
+}
+
+.icon-no {
+	background: url('icons/no.png') no-repeat center center;
+}
+
+.icon-cancel {
+	background: url('icons/cancel.png') no-repeat center center;
+}
+
+.icon-reload {
+	background: url('icons/reload.png') no-repeat center center;
+}
+
+.icon-search {
+	background: url('icons/search.png') no-repeat center center;
+}
+
+.icon-print {
+	background: url('icons/print.png') no-repeat center center;
+}
+
+.icon-help {
+	background: url('icons/help.png') no-repeat center center;
+}
+
+.icon-undo {
+	background: url('icons/undo.png') no-repeat center center;
+}
+
+.icon-redo {
+	background: url('icons/redo.png') no-repeat center center;
+}
+
+.icon-back {
+	background: url('icons/back.png') no-repeat center center;
+}
+
+.icon-sum {
+	background: url('icons/sum.png') no-repeat center center;
+}
+
+.icon-tip {
+	background: url('icons/tip.png') no-repeat center center;
+}
+
+.icon-filter {
+	background: url('icons/filter.png') no-repeat center center;
+}
+
+.icon-man {
+	background: url('icons/man.png') no-repeat center center;
+}
+
+.icon-lock {
+	background: url('icons/lock.png') no-repeat center center;
+}
+
+.icon-more {
+	background: url('icons/more.png') no-repeat center center;
+}
+
+.icon-mini-add {
+	background: url('icons/mini_add.png') no-repeat center center;
+}
+
+.icon-mini-edit {
+	background: url('icons/mini_edit.png') no-repeat center center;
+}
+
+.icon-mini-refresh {
+	background: url('icons/mini_refresh.png') no-repeat center center;
+}
+
+.icon-large-picture {
+	background: url('icons/large_picture.png') no-repeat center center;
+}
+
+.icon-large-clipart {
+	background: url('icons/large_clipart.png') no-repeat center center;
+}
+
+.icon-large-shapes {
+	background: url('icons/large_shapes.png') no-repeat center center;
+}
+
+.icon-large-smartart {
+	background: url('icons/large_smartart.png') no-repeat center center;
+}
+
+.icon-large-chart {
+	background: url('icons/large_chart.png') no-repeat center center;
+}
+
+/* custom icons */
+.icon-func-search {
+	background: url('icons/func-search.png') no-repeat center center;
+}
+
+.icon-func-clear-search {
+	background: url('icons/func-clear-search.png') no-repeat center center;
+}
+
+.icon-func-search-more {
+	background: url('icons/func-search-more.png') no-repeat center center;
+}
+
+.icon-func-add {
+	background: url('icons/func-add.png') no-repeat center center;
+}
+
+.icon-func-edit {
+	background: url('icons/func-edit.png') no-repeat center center;
+}
+
+.icon-func-delete {
+	background: url('icons/func-delete.png') no-repeat center center;
+}
+
+.icon-func-minus {
+	background: url('icons/func-minus.png') no-repeat center center;
+}
+
+.icon-func-view {
+	background: url('icons/func-view.png') no-repeat center center;
+}
+
+.icon-func-import {
+	background: url('icons/func-import.png') no-repeat center center;
+}
+
+.icon-func-export {
+	background: url('icons/func-export.png') no-repeat center center;
+}
+
+.icon-func-submit-audit {
+	background: url('icons/func-submit-audit.png') no-repeat center center;
+}
+
+.icon-func-withdraw {
+	background: url('icons/func-withdraw.png') no-repeat center center;
+}
+
+.icon-func-authority {
+	background: url('icons/func-authority.png') no-repeat center center;
+}
+
+.icon-func-role-setting {
+	background: url('icons/func-role-setting.png') no-repeat center center;
+}
+
+.icon-func-audit-log {
+	background: url('icons/func-audit-log.png') no-repeat center center;
+}
+
+.icon-func-compare {
+	background: url('icons/func-compare.png') no-repeat center center;
+}
+
+.icon-func-modify-task {
+	background: url('icons/func-modify-task.png') no-repeat center center;
+}
+
+.icon-func-view-task {
+	background: url('icons/func-view-task.png') no-repeat center center;
+}
+
+.icon-func-view-overall-task {
+	background: url('icons/func-view-overall-task.png') no-repeat center
+		center;
+}
+
+.icon-func-improve {
+	background: url('icons/func-improve.png') no-repeat center center;
+}
+
+.icon-func-verify {
+	background: url('icons/func-verify.png') no-repeat center center;
+}
+
+.icon-func-download {
+	background: url('icons/func-download.png') no-repeat center center;
+}
+
+.icon-func-sync {
+	background: url('icons/func-sync.png') no-repeat center center;
+}
+
+.icon-func-save {
+	background: url('icons/func-save.png') no-repeat center center;
+}
+
+.icon-func-edit-fields {
+	background: url('icons/func-edit-fields.png') no-repeat center center;
+}
+
+.icon-func-print {
+	background: url('icons/func-print.png') no-repeat center center;
+}
+
+.icon-func-backup {
+	background: url('icons/func-backup.png') no-repeat center center;
+}
+
+.icon-func-restore {
+	background: url('icons/func-restore.png') no-repeat center center;
+}
+
+.icon-func-upload {
+	background: url('icons/func-upload.png') no-repeat center center;
+}
+
+.icon-func-concern {
+	background: url('icons/func-concern.png') no-repeat center center;
+}
+
+.icon-func-no-concern {
+	background: url('icons/func-no-concern.png') no-repeat center center;
+}
+
+.icon-func-flowable-end-node {
+	background: url('icons/func-flowable-end-node.gif') no-repeat center
+		center;
+	background-size: 16px 16px;
+}
+
+.icon-func-flowable-single-audit-node {
+	background: url('icons/func-flowable-single-audit-node.gif') no-repeat
+		center center;
+	background-size: 16px 16px;
+}
+
+.icon-func-flowable-role-audit-node {
+	background: url('icons/func-flowable-role-audit-node.gif') no-repeat
+		center center;
+	background-size: 16px 16px;
+}

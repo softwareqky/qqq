@@ -1,0 +1,11 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+序号	FUND_MANAGEMENT_SCHEDULE.seqNo	FUND_MANAGEMENT_SCHEDULE	seqNo	seqNo	序号	1	1	1	1	1	1	1	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	80		2	20001		1970-01-01 00:00:00.000			1			
+计划月份	FUND_MANAGEMENT_SCHEDULE.plannedMonth	FUND_MANAGEMENT_SCHEDULE	plannedMonth	plannedMonth	计划月份	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	125		2	20002		1970-01-01 00:00:00.000			1			
+本期计划金额	FUND_MANAGEMENT_SCHEDULE.plannedAmount	FUND_MANAGEMENT_SCHEDULE	plannedAmount	plannedAmount	本期计划金额	0	1	1	1	1	1	0	0	1	1	0	0	1		0		widget:textbox,sortable:1	0	100		2	20003		1970-01-01 00:00:00.000			1			
+本期实际发生金额	FUND_MANAGEMENT_SCHEDULE.actualAmount	FUND_MANAGEMENT_SCHEDULE	actualAmount	actualAmount	本期实际发生金额	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	20004		1970-01-01 00:00:00.000			0			
+本期计划执行情况 	FUND_MANAGEMENT_SCHEDULE.currentExcuteState	FUND_MANAGEMENT_SCHEDULE	currentExcuteState	currentExcuteState	本期计划执行情况 	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	20005		1970-01-01 00:00:00.000			0			
+填报时间	FUND_MANAGEMENT_SCHEDULE.reportTime	FUND_MANAGEMENT_SCHEDULE	reportTime	reportTime	填报时间	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	20006		1970-01-01 00:00:00.000			0			
+填报人	FUND_MANAGEMENT_SCHEDULE.reporter	FUND_MANAGEMENT_SCHEDULE	reporter	reporter	填报人	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	85		2	20007		1970-01-01 00:00:00.000			0			
+流程状态	FUND_MANAGEMENT_SCHEDULE.processState	FUND_MANAGEMENT_SCHEDULE	processState	processState	流程状态	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	85		2	20008		1970-01-01 00:00:00.000			0			
+附件	FUND_MANAGEMENT_SCHEDULE.accessorie	FUND_MANAGEMENT_SCHEDULE	accessorie	accessorie	附件	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	85		2	20009		1970-01-01 00:00:00.000			0			
+备注	FUND_MANAGEMENT_SCHEDULE.remark	FUND_MANAGEMENT_SCHEDULE	remark	remark	备注	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	85		2	20010		1970-01-01 00:00:00.000			0			

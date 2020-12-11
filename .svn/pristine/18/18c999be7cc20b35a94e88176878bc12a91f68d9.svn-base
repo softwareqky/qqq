@@ -1,0 +1,11 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+项目编号	PROJECT_STATE_CHANGE.projectNo	PROJECT_STATE_CHANGE	projectNo	projectNo	项目编号	1	1	1	1	1	1	1	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	110		2	30001		1970-01-01 00:00:00.000			1			
+项目状态	PROJECT_STATE_CHANGE.projectStatus	PROJECT_STATE_CHANGE	projectStatus	projectStatus	项目状态	0	1	1	1	1	1	0	0	1	1	0	0	1		0		widget:combobox,sortable:1,option:projectStatus	0	85		2	30002		1970-01-01 00:00:00.000			1			
+变更为	PROJECT_STATE_CHANGE.newState	PROJECT_STATE_CHANGE	newState	newState	变更为	0	1	1	1	1	1	0	0	1	1	0	0	1		0		widget:combobox,sortable:1,option:projectStatus	0	85		2	30003		1970-01-01 00:00:00.000			0			
+项目类型	PROJECT_STATE_CHANGE.projectType	PROJECT_STATE_CHANGE	projectType	projectType	项目类型	0	1	1	1	1	1	0	0	2	1	0	0	1		0		widget:combobox,sortable:1,option:projectType	0	120		2	30004		1970-01-01 00:00:00.000			0			
+项目经理	PROJECT_STATE_CHANGE.projectManager	PROJECT_STATE_CHANGE	projectManager	projectManager	项目经理	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	30005		1970-01-01 00:00:00.000			0			
+项目名称	PROJECT_STATE_CHANGE.projectName	PROJECT_STATE_CHANGE	projectName	projectName	项目名称	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	125		2	30006		1970-01-01 00:00:00.000			1			
+建设单位	PROJECT_STATE_CHANGE.constructUnit	PROJECT_STATE_CHANGE	constructUnit	constructUnit	建设单位	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	30007		1970-01-01 00:00:00.000			0			
+工程造价	PROJECT_STATE_CHANGE.projectCost	PROJECT_STATE_CHANGE	projectCost	projectCost	工程造价	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	100		2	30008		1970-01-01 00:00:00.000			0			
+流程状态	PROJECT_STATE_CHANGE.processStatus	PROJECT_STATE_CHANGE	processStatus	processStatus	流程状态	0	1	1	1	1	1	0	0	2	1	0	0	1		0		widget:combobox,sortable:1,option:processStatus	0	85		2	30009		1970-01-01 00:00:00.000			0			
+立项申请日期	PROJECT_STATE_CHANGE.initApplyDate	PROJECT_STATE_CHANGE	initApplyDate	initApplyDateText	立项申请日期	0	1	1	1	1	1	0	0	2	2		0	5		0		widget:datebox,sortable:1	0	100		2	30010		1970-01-01 00:00:00.000			0			

@@ -1,0 +1,13 @@
+ID	画面(模块/功能)名	数据类型	图标	排序依据	URL链接	上级画面ID	画面叶节点	功能节点	是否启用	是否可自定义	区域/门店	备注	是否可用于菜单	是否可配置权限	是否全局可见	许可证功能ID	备注（中文，不写入数据库）
+P10001F01	新建		icon-func-add	1000101		P10001	0	1	1	0	2		0	1	1		新建
+P10001F02	删除		icon-func-delete	1000102		P10001	0	1	1	0	2		0	1	1		删除
+P10001F03	修改		icon-func-edit	1000103		P10001	0	1	1	0	2		0	1	1		修改
+P10001F04	查看		icon-func-view	1000104		P10001	0	1	1	0	2		0	1	1		查看
+P10001F06	导出		icon-func-export	1000106		P10001	0	1	1	0	2		0	1	1		导出
+P10001F08	提交审核		icon-func-audit-submit	1000108		P10001	0	1	1	0	2		0	1	1		提交审核
+P10001F09	撤回		icon-func-audit-withdraw	1000109		P10001	0	1	1	0	2		0	1	1		撤回
+P10001F10	流程状态		icon-func-process-status	1000110		P10001	0	1	1	0	2		0	1	1		流程状态
+P10001F11	审核记录		icon-func-audit-record	1000111		P10001	0	1	1	0	2		0	1	1		审核记录
+P10001F30	检索		icon-func-search	1000130		P10001	0	1	1	0	2		0	1	1		检索
+P10001F31	清空检索		icon-func-clear-search	1000131		P10001	0	1	1	0	2		0	1	1		清空检索
+P10001F32	高级检索		icon-func-search-more	1000232		P10001	0	1	1	0	2		0	1	1		高级检索

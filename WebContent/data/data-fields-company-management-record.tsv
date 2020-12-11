@@ -1,0 +1,32 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+单位名称	COMPANY_MANAGEMENT_RECORD.companyName	COMPANY_MANAGEMENT_RECORD	companyName	companyName	单位名称	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100001		1970-01-01 00:00:00.000			0		1	
+供应商编码	COMPANY_MANAGEMENT_RECORD.f1	COMPANY_MANAGEMENT_RECORD	f1	f1	供应商编码	1	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100002		1970-01-01 00:00:00.001			0		0	
+供应商类型	COMPANY_MANAGEMENT_RECORD.f2	COMPANY_MANAGEMENT_RECORD	f2	f2	供应商类型	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100003		1970-01-01 00:00:00.002			0		0	
+供应商所属区域	COMPANY_MANAGEMENT_RECORD.f3	COMPANY_MANAGEMENT_RECORD	f3	f3	供应商所属区域	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100004		1970-01-01 00:00:00.003			0		0	
+相关附件	COMPANY_MANAGEMENT_RECORD.f4	COMPANY_MANAGEMENT_RECORD	f4	f4	相关附件	0	1	1	1	1	1	0	0				0	4	50	0		widget:filebox,sortable:1,buttonText:浏览	0	10	基本信息	2	100005		1970-01-01 00:00:00.004			0		0	
+推荐供应商	COMPANY_MANAGEMENT_RECORD.isSupplier	COMPANY_MANAGEMENT_RECORD	isSupplier	isSupplierText	推荐供应商	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100006		1970-01-01 00:00:00.005			0		0	
+单位类型	COMPANY_MANAGEMENT_RECORD.unitType	COMPANY_MANAGEMENT_RECORD	unitType	unitType	单位类型	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100007		1970-01-01 00:00:00.006			0		0	
+品牌	COMPANY_MANAGEMENT_RECORD.f5	COMPANY_MANAGEMENT_RECORD	f5	f5	品牌	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:635	0	10	基本信息	2	100008		1970-01-01 00:00:00.007			0		0	
+产品概况	COMPANY_MANAGEMENT_RECORD.productProfile	COMPANY_MANAGEMENT_RECORD	productProfile	productProfile	产品概况	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本信息	2	100009		1970-01-01 00:00:00.008			0		0	
+联系人	COMPANY_MANAGEMENT_RECORD.contacts	COMPANY_MANAGEMENT_RECORD	contacts	contacts	联系人	0	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100010		1970-01-01 00:00:00.009			0		0	
+手机号码	COMPANY_MANAGEMENT_RECORD.f6	COMPANY_MANAGEMENT_RECORD	f6	f6	手机号码	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100011		1970-01-01 00:00:00.010			0		0	
+联系电话	COMPANY_MANAGEMENT_RECORD.f7	COMPANY_MANAGEMENT_RECORD	f7	f7	联系电话	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:635	0	10	基本信息	2	100012		1970-01-01 00:00:00.011			0		0	
+传真	COMPANY_MANAGEMENT_RECORD.f8	COMPANY_MANAGEMENT_RECORD	f8	f8	传真	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100013		1970-01-01 00:00:00.012			0		0	
+法人代表	COMPANY_MANAGEMENT_RECORD.f9	COMPANY_MANAGEMENT_RECORD	f9	f9	法人代表	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100014		1970-01-01 00:00:00.013			0		0	
+资质	COMPANY_MANAGEMENT_RECORD.f10	COMPANY_MANAGEMENT_RECORD	f10	f10	资质	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,width:635	0	10	基本信息	2	100015		1970-01-01 00:00:00.014			0		0	
+单位简介	COMPANY_MANAGEMENT_RECORD.f11	COMPANY_MANAGEMENT_RECORD	f11	f11	单位简介	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	基本信息	2	100016		1970-01-01 00:00:00.015			0		0	
+地址	COMPANY_MANAGEMENT_RECORD.f12	COMPANY_MANAGEMENT_RECORD	f12	f12	地址	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:11,width:635	0	10	基本信息	2	100017		1970-01-01 00:00:00.016			0		0	
+邮政编码	COMPANY_MANAGEMENT_RECORD.f13	COMPANY_MANAGEMENT_RECORD	f13	f13	邮政编码	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100018		1970-01-01 00:00:00.017			0		0	
+国家	COMPANY_MANAGEMENT_RECORD.f14	COMPANY_MANAGEMENT_RECORD	f14	f14	国家	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100019		1970-01-01 00:00:00.018			0		0	
+邮箱	COMPANY_MANAGEMENT_RECORD.f15	COMPANY_MANAGEMENT_RECORD	f15	f15	邮箱	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100020		1970-01-01 00:00:00.019			0		0	
+网址	COMPANY_MANAGEMENT_RECORD.f16	COMPANY_MANAGEMENT_RECORD	f16	f16	网址	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	基本信息	2	100021		1970-01-01 00:00:00.020			0		0	
+单位性质	COMPANY_MANAGEMENT_RECORD.unitProperties	COMPANY_MANAGEMENT_RECORD	unitProperties	unitProperties	单位性质	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	其他信息	2	100022		1970-01-01 00:00:00.021			0		1	
+经营类别	COMPANY_MANAGEMENT_RECORD.businessCategory	COMPANY_MANAGEMENT_RECORD	businessCategory	businessCategory	经营类别	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	其他信息	2	100023		1970-01-01 00:00:00.022			0		0	
+营业执照	COMPANY_MANAGEMENT_RECORD.f17	COMPANY_MANAGEMENT_RECORD	f17	f17	营业执照	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	其他信息	2	100024		1970-01-01 00:00:00.023			0		0	
+税号	COMPANY_MANAGEMENT_RECORD.f18	COMPANY_MANAGEMENT_RECORD	f18	f18	税号	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	其他信息	2	100025		1970-01-01 00:00:00.024			0		0	
+银行账号	COMPANY_MANAGEMENT_RECORD.f19	COMPANY_MANAGEMENT_RECORD	f19	f19	银行账号	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	其他信息	2	100026		1970-01-01 00:00:00.025			0		0	
+开户银行	COMPANY_MANAGEMENT_RECORD.f20	COMPANY_MANAGEMENT_RECORD	f20	f20	开户银行	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	其他信息	2	100027		1970-01-01 00:00:00.026			0		0	
+委托人	COMPANY_MANAGEMENT_RECORD.f21	COMPANY_MANAGEMENT_RECORD	f21	f21	委托人	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	其他信息	2	100028		1970-01-01 00:00:00.027			0		0	
+垫资能力	COMPANY_MANAGEMENT_RECORD.f22	COMPANY_MANAGEMENT_RECORD	f22	f22	垫资能力	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	其他信息	2	100029		1970-01-01 00:00:00.028			0		0	
+固定资产	COMPANY_MANAGEMENT_RECORD.f23	COMPANY_MANAGEMENT_RECORD	f23	f23	固定资产	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	其他信息	2	100030		1970-01-01 00:00:00.029			0		0	
+身份证号	COMPANY_MANAGEMENT_RECORD.f24	COMPANY_MANAGEMENT_RECORD	f24	f24	身份证号	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	4	其他信息	2	100031		1970-01-01 00:00:00.030			0		0	

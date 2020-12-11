@@ -1,0 +1,11 @@
+﻿字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+项目编号	APPLICATION_MANAGEMENT.projectNo	APPLICATION_MANAGEMENT	projectNo	projectNo	项目编号	1	1	1	1	1	1	1	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	110		2	400301		1970-01-01 00:00:00.000			1			
+项目名称	APPLICATION_MANAGEMENT.projectName	APPLICATION_MANAGEMENT	projectName	projectName	项目名称	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	125		2	400302		1970-01-01 00:00:00.000			1			
+项目状态	APPLICATION_MANAGEMENT.projectStatus	APPLICATION_MANAGEMENT	projectStatus	projectStatus	项目状态	1	1	1	1	1	1	0	0	1	1	0	0	1		0		widget:combobox,sortable:1,option:projectStatus	0	85		2	400303		1970-01-01 00:00:00.000			1			
+项目类型	APPLICATION_MANAGEMENT.projectType	APPLICATION_MANAGEMENT	projectType	projectType	项目类型	1	1	1	1	1	1	0	0	2	1	0	0	1		0		widget:combobox,sortable:1,option:projectType	0	100		2	400304		1970-01-01 00:00:00.000			0			
+立项申请日期	APPLICATION_MANAGEMENT.initApplyDate	APPLICATION_MANAGEMENT	initApplyDate	initApplyDateText	立项申请日期	1	1	1	1	1	1	0	0	2	2		0	5		0		widget:datebox,sortable:1	0	100		2	400305		1970-01-01 00:00:00.000			0			
+建设单位	APPLICATION_MANAGEMENT.constructionUnit	APPLICATION_MANAGEMENT	constructionUnit	constructionUnit	建设单位	1	1	1	1	1	1	0	0	2	1	2	0	4	50	0		widget:textbox,sortable:1	0	85		2	400306		1970-01-01 00:00:00.000			0			
+项目跟踪人	APPLICATION_MANAGEMENT.projectTracker	APPLICATION_MANAGEMENT	projectTracker	projectTracker	项目跟踪人	1	1	1	1	1	1	0	0	2	1	2	0	4	50	0		widget:textbox,sortable:1	0	85		2	400307		1970-01-01 00:00:00.000			0			
+工程造价	APPLICATION_MANAGEMENT.constructionCost	APPLICATION_MANAGEMENT	constructionCost	constructionCost	工程造价	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	85		2	400308		1970-01-01 00:00:00.000			0			
+工程工期	APPLICATION_MANAGEMENT.engineeringCycle	APPLICATION_MANAGEMENT	engineeringCycle	engineeringCycle	工程工期	0	1	1	1	1	1	0	0				0	3		0		widget:numberbox,sortable:1	0	85		2	400309		1970-01-01 00:00:00.000			0			
+流程状态	APPLICATION_MANAGEMENT.processStatus	APPLICATION_MANAGEMENT	processStatus	processStatus	流程状态	0	1	1	1	1	1	0	0				0	1		0		widget:combobox,sortable:1,option:processStatus	0	85		2	400310		1970-01-01 00:00:00.000			0			

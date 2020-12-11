@@ -1,0 +1,29 @@
+字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+申请日期	BIDDING_MANAGEMENT_RECORD.f1	BIDDING_MANAGEMENT_RECORD	f1	f1	申请日期	0	1	1	1	1	1	0	0					4	50	0		widget:datebox,sortable:1	0	4	投标信息	2	20001		1970-01-01 00:00:00.000			0		1	
+投标小组组长	BIDDING_MANAGEMENT_RECORD.f2	BIDDING_MANAGEMENT_RECORD	f2	f2	投标小组组长	0	1	1	1	1	1	0	0					4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20002		1970-01-01 00:00:00.000			0		0	
+是否自行投标	BIDDING_MANAGEMENT_RECORD.f3	BIDDING_MANAGEMENT_RECORD	f3	f3	是否自行投标	0	1	1	1	1	1	0	0					4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20003		1970-01-01 00:00:00.000			0		0	
+投标支持	BIDDING_MANAGEMENT_RECORD.f4	BIDDING_MANAGEMENT_RECORD	f4	f4	投标支持	0	1	1	1	1	1	0	0					4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20004		1970-01-01 00:00:00.000			0		0	
+逆用投标经理	BIDDING_MANAGEMENT_RECORD.f5	BIDDING_MANAGEMENT_RECORD	f5	f5	逆用投标经理	0	1	1	1	1	1	0	0					4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20005		1970-01-01 00:00:00.000			0		0	
+竞争对手	BIDDING_MANAGEMENT_RECORD.f6	BIDDING_MANAGEMENT_RECORD	f6	f6	竞争对手	0	1	1	1	1	1	0	0					4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20006		1970-01-01 00:00:00.000			0		0	
+开标日期	BIDDING_MANAGEMENT_RECORD.f7	BIDDING_MANAGEMENT_RECORD	f7	f7	开标日期	0	1	1	1	1	1	0	0					4	50	0		widget:datebox,sortable:1	0	4	投标信息	2	20007		1970-01-01 00:00:00.000			0		0	
+最高限价	BIDDING_MANAGEMENT_RECORD.f8	BIDDING_MANAGEMENT_RECORD	f8	f8	最高限价	0	1	1	1	1	1	0	0					4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20008		1970-01-01 00:00:00.000			0		0	
+单位	BIDDING_MANAGEMENT_RECORD.f9	BIDDING_MANAGEMENT_RECORD	f9	f9	单位	0	1	1	1	1	1	0	0					4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20009		1970-01-01 00:00:00.000			0		0	
+报价	BIDDING_MANAGEMENT_RECORD.projectCost	BIDDING_MANAGEMENT_RECORD	projectCost	projectCost	报价	0	1	1	1	1	1	0	0					4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20010		1970-01-01 00:00:00.000			0		0	
+评标方法	BIDDING_MANAGEMENT_RECORD.f11	BIDDING_MANAGEMENT_RECORD	f11	f11	评标方法	0	1	1	1	1	1	0	0					4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20011		1970-01-01 00:00:00.000			0		0	
+参考价	BIDDING_MANAGEMENT_RECORD.f12	BIDDING_MANAGEMENT_RECORD	f12	f12	参考价	0	1	1	1	1	1	0	0					4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20012		1970-01-01 00:00:00.000			0		0	
+投标答疑日期	BIDDING_MANAGEMENT_RECORD.f13	BIDDING_MANAGEMENT_RECORD	f13	f13	投标答疑日期	0	1	1	1	1	1	0	0					4	50	0		widget:datebox,sortable:1	0	4	投标信息	2	20013		1970-01-01 00:00:00.000			0		0	
+投标保证金	BIDDING_MANAGEMENT_RECORD.f14	BIDDING_MANAGEMENT_RECORD	f14	f14	投标保证金	0	1	1	1	1	1	0	0					4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20014		1970-01-01 00:00:00.000			0		0	
+缴费方式	BIDDING_MANAGEMENT_RECORD.f15	BIDDING_MANAGEMENT_RECORD	f15	f15	缴费方式	0	1	1	1	1	1	0	0					4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20015		1970-01-01 00:00:00.000			0		0	
+项目经理	BIDDING_MANAGEMENT_RECORD.projectManager	BIDDING_MANAGEMENT_RECORD	projectManager	projectManager	项目经理	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	4	投标信息	2	20016		1970-01-01 00:00:00.000			0		0	
+现场勘察日期	BIDDING_MANAGEMENT_RECORD.f16	BIDDING_MANAGEMENT_RECORD	f16	f16	现场勘察日期	0	1	1	1	1	1	0	0					4		0		widget:datebox,sortable:1	0	4	投标信息	2	20017		1970-01-01 00:00:00.000			0		0	
+阅知人	BIDDING_MANAGEMENT_RECORD.f17	BIDDING_MANAGEMENT_RECORD	f17	f17	阅知人	0	1	1	1	1	1	0	0					4		0		widget:textbox,sortable:1	0	4	投标信息	2	20018		1970-01-01 00:00:00.000			0		0	
+垫资金额	BIDDING_MANAGEMENT_RECORD.advanceFundsAmount	BIDDING_MANAGEMENT_RECORD	advanceFundsAmount	advanceFundsAmount	垫资金额	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	投标信息	2	20019		1970-01-01 00:00:00.000			0		0	
+垫资周期	BIDDING_MANAGEMENT_RECORD.advanceCycle	BIDDING_MANAGEMENT_RECORD	advanceCycle	advanceCycle	垫资周期	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	投标信息	2	20020		1970-01-01 00:00:00.000			0		0	
+利润率	BIDDING_MANAGEMENT_RECORD.profitMargin	BIDDING_MANAGEMENT_RECORD	profitMargin	profitMargin	利润率	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	4	投标信息	2	20021		1970-01-01 00:00:00.000			0		0	
+标书申请人	BIDDING_MANAGEMENT_RECORD.f17	BIDDING_MANAGEMENT_RECORD	f17	f17	标书申请人	0	1	1	1	1	1	0	0					4		0		widget:textbox,sortable:1	0	4	投标信息	2	20022		1970-01-01 00:00:00.000			0		0	
+投标结果	BIDDING_MANAGEMENT_RECORD.f18	BIDDING_MANAGEMENT_RECORD	f18	f18	投标结果	0	1	1	1	1	1	0	0					4		0		widget:textbox,sortable:1	0	4	投标信息	2	20023		1970-01-01 00:00:00.000			0		0	
+中标金额	BIDDING_MANAGEMENT_RECORD.f19	BIDDING_MANAGEMENT_RECORD	f19	f19	中标金额	0	1	1	1	1	1	0	0					3	0,999999,2	0		widget:textbox,sortable:1	0	4	投标信息	2	20024		1970-01-01 00:00:00.000			0		0	
+现场费内容	BIDDING_MANAGEMENT_RECORD.f20	BIDDING_MANAGEMENT_RECORD	f20	f20	现场费内容	0	1	1	1	1	1	0	0					4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	投标信息	2	20025		1970-01-01 00:00:00.000			0		0	
+标书内容	BIDDING_MANAGEMENT_RECORD.f21	BIDDING_MANAGEMENT_RECORD	f21	f21	标书内容	0	1	1	1	1	1	0	0					4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	投标信息	2	20026		1970-01-01 00:00:00.000			0		0	
+投标策略	BIDDING_MANAGEMENT_RECORD.f22	BIDDING_MANAGEMENT_RECORD	f22	f22	投标策略	0	1	1	1	1	1	0	0					4	250	0		widget:textbox,sortable:1,multiline:1,width:635	0	10	投标信息	2	20027		1970-01-01 00:00:00.000			0		0	
+相关标书	BIDDING_MANAGEMENT_RECORD.f23	BIDDING_MANAGEMENT_RECORD	f23	f23	相关标书	0	1	1	1	1	1	0	0					4		0		widget:filebox,sortable:1,buttonText:浏览	0	10	投标信息	2	20028		1970-01-01 00:00:00.000			0		0	

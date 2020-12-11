@@ -1,0 +1,162 @@
+.weekend {
+	background: #f4f7f4;
+}
+
+.gantt_selected .weekend {
+	background: #f7eb91;
+}
+
+.overdue-indicator {
+	width: 24px;
+	margin-top: 4px;
+	height: 24px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 17px;
+	color: white;
+	background: rgb(255, 60, 60);
+	line-height: 25px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 25px;
+}
+
+.overdue-warning {
+	width: 16px;
+	margin-top: 7px;
+	height: 16px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	background: #f03434;
+	/* border: 2px solid #f03434; */
+	/* background: #f03434; */
+	line-height: 25px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 25px;
+}
+
+.overdue-normal {
+	width: 16px;
+	margin-top: 7px;
+	height: 16px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 50%;
+	background: #2ddf2d;;
+	/* border: 2px solid #2ddf2d; */
+	line-height: 25px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 25px;
+}
+
+.overdue {
+	background: #e63030 !important;
+	border-color: #9d3a3a;
+}
+
+.overdue .gantt_task_progress {
+	background: #a61414;
+}
+
+.deadline {
+	position: absolute;
+	border-radius: 12px;
+	border: 2px solid #585858;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 22px;
+	height: 22px;
+	margin-left: -11px;
+	margin-top: 6px;
+	z-index: 999;
+	background: url("deadline_icon.png") center no-repeat;
+}
+
+.constraint-marker {
+	position: absolute;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/* 	width: 56px; */
+	width: 14px;
+	height: 14px;
+	margin-top: 8px;
+	opacity: 0.4;
+	z-index: 998;
+	background: url("timg_origin.png") center no-repeat;
+	background-size: cover;
+}
+
+.constraint-marker.earliest-start {
+	margin-left: -16px;
+}
+
+.constraint-marker.latest-end {
+	margin-left: 0px;
+	transform: rotate(180deg);
+}
+
+.gantt_project {
+	background-color: #e18086 !important;
+}
+
+.custom_project {
+	background-color: #e18086 !important;
+}
+
+.gantt_task_line {
+	background: #eea687;
+}
+
+.custom_task {
+	background: #eea687;
+}
+
+.custom_grid_header {
+	background: #70acdb;
+	color: white !important;
+}
+
+.custom_row {
+	background: #70acdb;
+}
+
+.gantt_scale_cell {
+	color: white !important;
+}
+
+.custom_task .gantt_task_progress {
+	background: #ee885c;
+}
+
+.custom_project .gantt_task_progress {
+	background: #dd5c64 !important;
+}
+
+.gantt_grid_data .gantt_cell {
+	border-right: 1px solid #ECECEC;
+}
+
+.gantt_grid_data .gantt_cell.gantt_last_cell {
+	border-right: none;
+}
+
+.gantt_task_row, .gantt_task_cell {
+	border: none;
+}
+
+.overflowShelveCancel {
+	background: #cccccc;
+}
+
+.overflowShelveCancel .gantt_task_progress {
+	background: #a7a7a7 !important;
+}
+
+.maximzebuttonposition {
+	z-index: 9999999999;
+	position: absolute;
+	left: 0px;
+	top: 47px;
+}

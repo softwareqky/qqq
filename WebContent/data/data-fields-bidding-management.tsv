@@ -1,0 +1,14 @@
+字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+项目编号	BIDDING_MANAGEMENT.projectNo	BIDDING_MANAGEMENT	projectNo	projectNo	项目编号	1	1	1	1	1	1	1	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	110		2	20001		1970-01-01 00:00:00.000			1			
+项目名称	BIDDING_MANAGEMENT.projectName	BIDDING_MANAGEMENT	projectName	projectName	项目名称	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	125		2	20002		1970-01-01 00:00:00.000			1			
+项目状态	BIDDING_MANAGEMENT.projectStatus	BIDDING_MANAGEMENT	projectStatus	projectStatus	项目状态	0	1	1	1	1	1	0	0	1	1	0	0	1		0		widget:combobox,sortable:1,option:projectStatus	0	85		2	20003		1970-01-01 00:00:00.000			1			
+项目类型	BIDDING_MANAGEMENT.projectType	BIDDING_MANAGEMENT	projectType	projectType	项目类型	0	1	1	1	1	1	0	0	2	1	0	0	1		0		widget:combobox,sortable:1,option:projectType	0	120		2	20004		1970-01-01 00:00:00.000			0			
+项目经理	BIDDING_MANAGEMENT.projectManager	BIDDING_MANAGEMENT	projectManager	projectManager	项目经理	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	20005		1970-01-01 00:00:00.000			0			
+建设单位	BIDDING_MANAGEMENT.constructUnit	BIDDING_MANAGEMENT	constructUnit	constructUnit	建设单位	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	20006		1970-01-01 00:00:00.000			0			
+工程造价	BIDDING_MANAGEMENT.projectCost	BIDDING_MANAGEMENT	projectCost	projectCost	工程造价	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	100		2	20007		1970-01-01 00:00:00.000			0			
+垫资周期	BIDDING_MANAGEMENT.advanceCycle	BIDDING_MANAGEMENT	advanceCycle	advanceCycle	垫资周期	0	1	1	1	1	1	0	0				0	3		0		widget:numberbox,sortable:1	0	85		2	20008		1970-01-01 00:00:00.000			0			
+垫资金额	BIDDING_MANAGEMENT.advanceFundsAmount	BIDDING_MANAGEMENT	advanceFundsAmount	advanceFundsAmount	垫资金额	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	85		2	20009		1970-01-01 00:00:00.000			0			
+利润率	BIDDING_MANAGEMENT.profitMargin	BIDDING_MANAGEMENT	profitMargin	profitMargin	利润率	0	1	1	1	1	1	0	0				0	3		0		widget:numberbox,sortable:1	0	85		2	20010		1970-01-01 00:00:00.000			0			
+工程工期	BIDDING_MANAGEMENT.engineeringCycle	BIDDING_MANAGEMENT	engineeringCycle	engineeringCycle	工程工期	0	1	1	1	1	1	0	0				0	3		0		widget:numberbox,sortable:1	0	85		2	20011		1970-01-01 00:00:00.000			0			
+流程状态	BIDDING_MANAGEMENT.processStatus	BIDDING_MANAGEMENT	processStatus	processStatus	流程状态	0	1	1	1	1	1	0	0				0	1		0		widget:combobox,sortable:1,option:processStatus	0	85		2	20012		1970-01-01 00:00:00.000			0			
+立项申请日期	BIDDING_MANAGEMENT.initApplyDate	BIDDING_MANAGEMENT	initApplyDate	initApplyDateText	立项申请日期	0	1	1	1	1	1	0	0	2	2		0	5		0		widget:datebox,sortable:1	0	100		2	20013		1970-01-01 00:00:00.000			0			

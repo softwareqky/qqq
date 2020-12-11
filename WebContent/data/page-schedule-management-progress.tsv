@@ -1,0 +1,12 @@
+﻿ID	画面(模块/功能)名	数据类型	图标	排序依据	URL链接	上级画面ID	画面叶节点	功能节点	是否启用	是否可自定义	区域/门店	备注	是否可用于菜单	是否可配置权限	是否全局可见	许可证功能ID	备注（中文，不写入数据库）
+P6001F01	新建		icon-func-add	600101		P6001	0	1	1	0	2		0	1	1		新建
+P6001F02	删除		icon-func-delete	600102		P6001	0	1	1	0	2		0	1	1		删除
+P6001F03	修改		icon-func-edit	600103		P6001	0	1	1	0	2		0	1	1		修改
+P6001F08	提交审核		icon-func-audit-submit	600108		P6001	0	1	1	0	2		0	1	1		提交审核
+P6001F09	撤回		icon-func-audit-withdraw	600109		P6001	0	1	1	0	2		0	1	1		撤回
+P6001F10	流程状态		icon-func-process-status	600110		P6001	0	1	1	0	2		0	1	1		流程状态
+P6001F11	审核记录		icon-func-audit-record	600111		P6001	0	1	1	0	2		0	1	1		审核记录
+P6001F20	编制进度		icon-func-process-status	600120		P6001	0	1	1	0	2		0	1	1		编制进度
+P6001F30	检索		icon-func-search	600130		P6001	0	1	1	0	2		0	1	1		检索
+P6001F31	清空检索		icon-func-clear-search	600131		P6001	0	1	1	0	2		0	1	1		清空检索
+P6001F32	高级检索		icon-func-search-more	600132		P6001	0	1	1	0	2		0	1	1		高级检索

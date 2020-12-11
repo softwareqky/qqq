@@ -1,0 +1,18 @@
+字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+账户编号	COSTRECORDER.accountNumber	COSTRECORDER	accountNumber	accountNumber	账户编号	1	1	1	1	1	1	1	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	110		2	50001		1970-01-01 00:00:00.000			1			
+账户名称	COSTRECORDER.accountName	COSTRECORDER	accountName	accountName	账户名称	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	125		2	50002		1970-01-01 00:00:00.000			1			
+包含项目	COSTRECORDER.containingProjects	COSTRECORDER	containingProjects	containingProjects	包含项目	1	1	1	1	1	1	0	0	2	1	0	0	1		0		widget:combobox,sortable:1	0	85		2	50003		1970-01-01 00:00:00.000			1			
+启动资金	COSTRECORDER.startUpFunds	COSTRECORDER	startUpFunds	startUpFunds	启动资金	0	1	1	1	1	1	0	0		1	0	0	1		0		widget:combobox,sortable:1	0	85		2	50004		1970-01-01 00:00:00.000			1			
+其他收入	COSTRECORDER.otherIncome	COSTRECORDER	otherIncome	otherIncome	其他收入	0	1	1	1	1	1	0	0		1	0	0	1		0		widget:combobox,sortable:1	0	85		2	50005		1970-01-01 00:00:00.000			0			
+合同回款入账	COSTRECORDER.paymentIntoAccount	COSTRECORDER	paymentIntoAccount	paymentIntoAccount	合同回款入账	0	1	1	1	1	1	0	0	2	1	0	0	4		0		widget:textbox,sortable:1	0	100		2	50006		1970-01-01 00:00:00.000			0			
+项目借款	COSTRECORDER.projectBorrowing	COSTRECORDER	projectBorrowing	projectBorrowing	项目借款	0	1	1	1	1	1	0	0				0	4	50	0		widget:textbox,sortable:1	0	100		2	50007		1970-01-01 00:00:00.000			0			
+借款利息	COSTRECORDER.borrowingInterest	COSTRECORDER	borrowingInterest	borrowingInterest	借款利息	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	50008		1970-01-01 00:00:00.000			0			
+归还本金	COSTRECORDER.returnPrincipal	COSTRECORDER	returnPrincipal	returnPrincipal	归还本金	0	1	1	1	1	1	0	0	2	1	2	0	4	50	0		widget:textbox,sortable:1	0	110		2	50009		1970-01-01 00:00:00.000			0			
+归还利息及其他	COSTRECORDER.returnInterest	COSTRECORDER	returnInterest	returnInterest	归还利息及其他	0	1	1	1	1	1	0	0				0	1		0		widget:combobox,sortable:1	0	85		2	50010		1970-01-01 00:00:00.000			0			
+应支合同额	COSTRECORDER.contractPayableAmount	COSTRECORDER	contractPayableAmount	contractPayableAmount	应支合同额	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	50011		1970-01-01 00:00:00.000			0			
+应支间接费用	COSTRECORDER.indirectExpensesPayable	COSTRECORDER	indirectExpensesPayable	indirectExpensesPayable	应支间接费用	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	50012		1970-01-01 00:00:00.000			0			
+账户可用余额	COSTRECORDER.accountAvailableBalance	COSTRECORDER	accountAvailableBalance	accountAvailableBalance	账户可用余额	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	100		2	50013		1970-01-01 00:00:00.000			0			
+未支合同额	COSTRECORDER.unpaidContractAmount	COSTRECORDER	unpaidContractAmount	unpaidContractAmount	未支合同额	0	1	1	1	1	1	0	0				0	3	0,999999,2	0		widget:numberbox,sortable:1	0	100		2	50014		1970-01-01 00:00:00.000			0			
+未支间接费用	COSTRECORDER.noIndirectExpensesIncurred	COSTRECORDER	noIndirectExpensesIncurred	noIndirectExpensesIncurred	未支间接费用	0	1	1	1	1	1	0	0		1	0	0	1		0		widget:combobox,sortable:1	0	100		2	50015		1970-01-01 00:00:00.000			0			
+账户余额	COSTRECORDER.accountBalance	COSTRECORDER	accountBalance	accountBalance	账户余额	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:textbox,sortable:1	0	100		2	50016		1970-01-01 00:00:00.000			0			
+操作	COSTRECORDER.operation	COSTRECORDER	operation	operation	操作	0	1	1	1	1	1	0	0	2	1	2	0	4	50	0		widget:textbox,sortable:1	0	100		2	50017		1970-01-01 00:00:00.000			0			

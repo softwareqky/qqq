@@ -1,0 +1,9 @@
+字段	ID	数据类型	字段名	一览使用的字段名	显示名(资源名)	是否必填	是否启用	是否可自定义	是否全局可见	是否一览可见	是否编辑可见	是否只读	是否可以批量修改	过滤类型	过滤条件	检索模式	是否参与同步	值类型	数据有效值	是否有默认值	默认值	编辑控件	是否在复制时保留	列宽	字段组合	区域/门店	排序	修改者	修改时间	修改的位置	备注	是否固定列	数据库表的列名	是否是组合中的根字段	许可证功能ID
+入账单号	COSTRECORDERDETAIL.invoiceNumber	COSTRECORDERDETAIL	invoiceNumber	invoiceNumber	入账单号	1	1	1	1	1	1	1	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	110		2	60001		1970-01-01 00:00:00.000			1			
+合同支付单号	COSTRECORDERDETAIL.contractPaymentNumbe	COSTRECORDERDETAIL	contractPaymentNumbe	contractPaymentNumbe	合同支付单号	1	1	1	1	1	1	0	0	1	1	2	0	4	50	0		widget:textbox,sortable:1	0	125		2	60002		1970-01-01 00:00:00.000			1			
+入账金额	COSTRECORDERDETAIL.accountingAmount	COSTRECORDERDETAIL	accountingAmount	accountingAmount	入账金额	1	1	1	1	1	1	0	0	2	1	0	0	1		0		widget:combobox,sortable:1	0	85		2	60003		1970-01-01 00:00:00.000			1			
+经手人	COSTRECORDERDETAIL.handler	COSTRECORDERDETAIL	handler	handler	经手人	0	1	1	1	1	1	0	0	1	1	0	0	1		0		widget:combobox,sortable:1	0	85		2	60004		1970-01-01 00:00:00.000			1			
+入账人	COSTRECORDERDETAIL.accountant	COSTRECORDERDETAIL	accountant	accountant 	入账人	0	1	1	1	1	1	0	0	1	1	0	0	1		0		widget:combobox,sortable:1	0	85		2	60005		1970-01-01 00:00:00.000			0			
+入账日期	COSTRECORDERDETAIL.postingDate	COSTRECORDERDETAIL	postingDate	postingDateText	入账日期	0	1	1	1	1	1	0	0	2	1	0	0	4		0		widget:textbox,sortable:1	0	100		2	60006		1970-01-01 00:00:00.000			0			
+流程状态	COSTRECORDERDETAIL.processState	COSTRECORDERDETAIL	processState	processState	流程状态	0	1	1	1	1	1	0	0				0	1		0		widget:combobox,sortable:1,option:processStatus	0	85		2	60007		1970-01-01 00:00:00.000			0			
+附件	COSTRECORDERDETAIL.subsidiaryFile	COSTRECORDERDETAIL	subsidiaryFile	subsidiaryFileText	附件	0	1	1	1	1	1	0	0	2	1	0	0	4	50	0		widget:filebox,sortable:1	0	100		2	60008		1970-01-01 00:00:00.000			0			

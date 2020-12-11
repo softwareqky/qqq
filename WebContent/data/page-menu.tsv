@@ -1,0 +1,69 @@
+﻿ID	画面(模块/功能)名	数据类型	图标	排序依据	URL链接	上级画面ID	画面叶节点	功能节点	是否启用	是否可自定义	区域/门店	备注	是否可用于菜单	是否可配置权限	是否全局可见	许可证功能ID	备注（中文，不写入数据库）
+P10	立项管理		fa fa-paint-brush	100000			0	0	1	1	2		1	1	1		立项管理
+P1001	项目立项		fa fa-genderless	100100	/project-management/initiation/main.htm	P10	1	0	1	1	2		1	1	1		项目立项
+P1003	立项前期管理		fa fa-genderless	100300		P10	1	0	1	1	2		1	1	1		立项前期管理
+P1005	组织架构管理		fa fa-genderless	100500		P10	1	0	1	1	2		1	1	1		组织架构管理
+P1008	项目成员管理		fa fa-genderless	100800		P10	1	0	1	1	2		1	1	1		项目成员管理
+P1011	权限管理		fa fa-genderless	101100		P10	1	0	1	1	2		1	1	1		权限管理
+P20	投资概算		fa fa-bar-chart	200000			0	0	1	1	2		1	1	1		投资概算
+P2001	资金计划		fa fa-genderless	200100	/fund-management/schedule/main.htm	P20	1	0	1	1	2		1	1	1		资金计划
+P2003	合同预算		fa fa-genderless	200300		P20	1	0	1	1	2		1	1	1		合同预算
+P2005	预算规划		fa fa-genderless	200500	/fund-management/monthly-expenditure-plan-report/main.htm	P20	1	0	1	1	2		1	1	1		预算规划
+P2008	预算执行		fa fa-genderless	200800	/fund-management/cost-recorder/main.htm	P20	1	0	1	1	2		1	1	1		预算执行
+P2011	预算模板		fa fa-genderless	201100		P20	1	0	1	1	2		1	1	1		预算模板
+P2014	经费决算		fa fa-genderless	201400		P20	1	0	1	1	2		1	1	1		经费决算
+P2017	财务基础管理		fa fa-genderless	201700		P20	1	0	1	1	2		1	1	1		财务基础管理
+P30	招标管理		fa fa-suitcase	300000			0	0	1	1	2		1	1	1		招标管理
+P3003	标书材料编制		fa fa-genderless	300300	/bidding-management/materials-compilatio/main.htm	P30	1	0	1	1	2		1	1	1		标书材料编制
+P40	投标管理		fa fa-legal	400000			0	0	1	1	2		1	1	1		投标管理
+P4001	信息立项申请		fa fa-genderless	400100	/info-management/application/main.htm	P40	1	0	1	1	2		1	1	1		信息立项申请
+P4002	信息立项表		fa fa-genderless	400200	/info-management/initiation/main.htm	P40	1	0	1	1	2		1	1	1		信息立项表
+P4003	项目报名		fa fa-genderless	400300	/project-tendering/application-management/main.htm	P40	1	0	1	1	2		1	1	1		项目报名
+P4005	资格预审		fa fa-genderless	400500	/project-tendering/qualification-review/main.htm	P40	1	0	1	1	2		1	1	1		资格预审
+P4008	项目投标		fa fa-genderless	400800	/project-tendering/bidding-management/main.htm	P40	1	0	1	1	2		1	1	1		项目投标
+P4011	中标管理		fa fa-genderless	401100	/project-tendering/bid-winning-management/main.htm	P40	1	0	1	1	2		1	1	1		中标管理
+P4014	状态变更管理		fa fa-genderless	401400	/state-change-manager/project-state-change/main.htm	P40	1	0	1	1	2		1	1	1		状态变更管理
+P50	合同管理		fa fa-file-text-o	500000			0	0	1	1	2		1	1	1		合同管理
+P5001	参数设置		fa fa-genderless	500100		P50	1	0	1	1	2		1	1	1		参数设置
+P5003	合同审核		fa fa-genderless	500300		P50	1	0	1	1	2		1	1	1		合同审核
+P5005	合同结算		fa fa-genderless	500500		P50	1	0	1	1	2		1	1	1		合同结算
+P5008	合同发票		fa fa-genderless	500800		P50	1	0	1	1	2		1	1	1		合同发票
+P5011	合同台账		fa fa-genderless	501100		P50	1	0	1	1	2		1	1	1		合同台账
+P5014	合同报表		fa fa-genderless	501400		P50	1	0	1	1	2		1	1	1		合同报表
+P5017	合同模板		fa fa-genderless	501700		P50	1	0	1	1	2		1	1	1		合同模板
+P5019	合同归档		fa fa-genderless	501900		P50	1	0	1	1	2		1	1	1		合同归档
+P5021	权限管理		fa fa-genderless	502100		P50	1	0	1	1	2		1	1	1		权限管理
+P60	进度管理		fa fa-calendar	600000			0	0	1	1	2		1	1	1		进度管理
+P6001	进度计划		fa fa-genderless	600100	/schedule-management/progress/main.htm	P60	1	0	1	1	2		1	1	1		进度计划
+P6003	进度调整		fa fa-genderless	600300		P60	1	0	1	1	2		1	1	1		进度调整
+P6005	进度跟踪		fa fa-genderless	600500		P60	1	0	1	1	2		1	1	1		进度跟踪
+P6008	进度分析		fa fa-genderless	600800		P60	1	0	1	1	2		1	1	1		进度分析
+P6011	计划权限		fa fa-genderless	601100		P60	1	0	1	1	2		1	1	1		计划权限
+P70	项目过程管理		fa fa-tasks	700000			0	0	1	1	2		1	1	1		项目过程管理
+P7001	变更管理		fa fa-genderless	700100		P70	1	0	1	1	2		1	1	1		变更管理
+P7003	项目检查		fa fa-genderless	700300		P70	1	0	1	1	2		1	1	1		项目检查
+P7005	巡查管理		fa fa-genderless	700500		P70	1	0	1	1	2		1	1	1		巡查管理
+P7008	项目绩效奖罚		fa fa-genderless	700800		P70	1	0	1	1	2		1	1	1		项目绩效奖罚
+P75	验收管理		fa fa-pencil-square-o	750000			0	0	1	1	2		1	1	1		验收管理
+P7501	验收申请		fa fa-genderless	750100		P75	1	0	1	1	2		1	1	1		验收申请
+P7503	验收评审		fa fa-genderless	750300		P75	1	0	1	1	2		1	1	1		验收评审
+P7505	验收信息		fa fa-genderless	750500		P75	1	0	1	1	2		1	1	1		验收信息
+P7508	竣工验收管理		fa fa-genderless	750800		P75	1	0	1	1	2		1	1	1		竣工验收管理
+P80	质量管理		fa fa-balance-scale	800000			0	0	1	1	2		1	1	1		质量管理
+P8001	质量规范		fa fa-genderless	800100		P80	1	0	1	1	2		1	1	1		质量规范
+P8003	质量管理		fa fa-genderless	800300		P80	1	0	1	1	2		1	1	1		质量管理
+P8005	问题风险管理		fa fa-genderless	800500		P80	1	0	1	1	2		1	1	1		问题风险管理
+P85	信息管理		fa fa-tv	850000			0	0	1	1	2		1	1	1		信息管理
+P8501	人员信息管理		fa fa-genderless	850100	/personnel-management/employee-management/main.htm	P85	1	0	1	1	2		1	1	1		人员信息管理
+P8503	单位信息管理		fa fa-genderless	850300	/company-management/company-management/main.htm	P85	1	0	1	1	2		1	1	1		单位信息管理
+P8505	专家库信息管理		fa fa-genderless	850500	/expert-management/expert-management/main.htm	P85	1	0	1	1	2		1	1	1		专家库信息管理
+P90	档案管理		fa fa-file-archive-o	900000			0	0	1	1	2		1	1	1		档案管理
+P9001	项目档案管理		fa fa-genderless	900100		P90	1	0	1	1	2		1	1	1		项目档案管理
+P9003	借阅管理		fa fa-genderless	900300		P90	1	0	1	1	2		1	1	1		借阅管理
+P9005	知识库管理		fa fa-genderless	900500		P90	1	0	1	1	2		1	1	1		知识库管理
+P95	工作流管理		fa fa-map-signs	950000			0	0	1	1	2		1	1	1		工作流管理
+P9501	流程安全设置		fa fa-genderless	950100		P95	1	0	1	1	2		1	1	1		流程安全设置
+P9503	流程模板设置		fa fa-genderless	950300		P95	1	0	1	1	2		1	1	1		流程模板设置
+P9505	工作流审批设置		fa fa-genderless	950500		P95	1	0	1	1	2		1	1	1		工作流审批设置
+P9508	流程角色管理		fa fa-genderless	950800		P95	1	0	1	1	2		1	1	1		流程角色管理
+P9511	流程监控		fa fa-genderless	951100		P95	1	0	1	1	2		1	1	1		流程监控
